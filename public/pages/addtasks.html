@@ -1,0 +1,42 @@
+<!doctype html> 
+
+<html>
+<head>
+	<title>Add Task</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../public/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="../../public/css/westudy.css" rel="stylesheet">
+</head>
+
+<body>
+	<form>
+		<h1>Add A New Task!</h1>
+		<section class="name">
+			<label for="name">Task:</label>
+			<input type="text" name="name" id="name" required>
+		</section>
+
+		<section class="finish-date">
+			<label for="finish-date">Complete By:</label>
+			<input type="date" id="finish-date" name="finish-date" required>
+		</section>
+
+		<section class="privacy">
+			<span><b>Public?</b></span>
+			<input id="yes" type="radio" name="privacy" value="yes" required>
+			<label for="yes">Yes</label>
+			<input id="no" type="radio" name="privacy" value="no" required>
+			<label for="no">No</label>
+		</section>
+
+		<section class="submission">
+			<input type="submit" value="Save Task">
+		</section>
+	</form>
+
+	<script src="https://code.jquery.com/jquery.js"></script>
+    <script src="../../public/js/bootstrap.min.js"></script>
+</body>
+</html>
