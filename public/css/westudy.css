@@ -12,7 +12,7 @@
 .head h2{
     position: relative;
     text-align: center;
-    background-color: lightblue;
+    background-color: whitesmoke;
     border-radius: 50px;
     padding: 40px;
     font-variant: small-caps;
@@ -22,10 +22,11 @@
     padding: 20px;
     font-family: sans-serif;
     text-align: left;
-    font-size: 40px;
+    font-size: 30px;
     background-color: lightgray;
 }
 
+/* Styling for Home Button on all pages */ 
 .button{
     position: right;
     display: inline-block;
@@ -35,4 +36,73 @@
     padding-left: 110px;
     border: 15px;
     background-color: lightgray;
+}
+
+/* Styling for Tasks page */ 
+.tasks{
+    padding-left: 20px;
+}
+
+.today h2{
+    padding-left: 20px;
+}
+
+.week h2{
+    padding-left: 20px;
+}
+
+#add{
+    padding-left: 100px;
+    text-align: center;
+}
+
+#delete{
+    padding: 70px;
+    text-align: center;
+}
+
+/* Styling for AddTasks Page */ 
+.name{
+    padding-left: 20px;
+}
+
+.finish-date{
+    padding-left: 20px;
+}
+
+.submission{
+    padding-left: 20px;
+}
+
+.privacy{
+    padding-left: 20px;
+}
+
+/* Styling for Friends Page */ 
+.avatar{
+    vertical-align: left;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.friends{
+    display: flex;
+    align-items: left;
+    justify-content: left; 
+}
+
+.friends p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.progress{
+    height: 20px;
+    font-size: 15px;
+    padding-left: 20px;
+    background-color: gray;
+    text-align: center;
+    line-height: 20px;
+    float: center;
 }

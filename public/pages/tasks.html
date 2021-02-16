@@ -21,7 +21,7 @@
     </div>
 
     <!-- Form section for "today's" tasks -->
-    <form>
+    <form class="today">
         <h2>Today:</h2>
         <section class="tasks">
             <input type="checkbox" name="tasks" id="task1" value="task1">
@@ -34,7 +34,7 @@
     </form>
 
     <!-- Form section for "this week's" tasks -->
-    <form>
+    <form class="week">
         <h2>This Week:</h2>
         <section class="tasks">
             <input type="checkbox" name="tasks" id="task1" value="task1">
@@ -47,8 +47,8 @@
     </form>
 
     <!-- Buttons to add or delete tasks -->
-    <a href="addtasks.html">Add</a>
-    <a href="tasks.html">Delete</a> 
+    <a id= "add" href="addtasks.html">Add</a>
+    <a id="delete" href="tasks.html">Delete</a> 
 
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="../../public/js/bootstrap.min.js"></script>
