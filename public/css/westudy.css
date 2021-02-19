@@ -109,8 +109,21 @@
 
 /* Styling for Awards Page */
 .award{
+    padding: 10px;
     vertical-align: left;
     width: 70px;
     height: 70px;
     border-radius: 50%;
+}
+
+.dropdown{
+    padding-left: 20px;
+}
+
+.friend-awards{
+    padding-left: 20px;
+}
+
+.group-awards{
+    padding-left: 20px;
 }
