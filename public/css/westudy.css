@@ -44,11 +44,7 @@
     padding-left: 20px;
 }
 
-.today h2{
-    padding-left: 20px;
-}
-
-.week h2{
+.day h2{
     padding-left: 20px;
 }
 
@@ -138,27 +134,28 @@
     width: 100%;
   }
   
-  /* Style the links inside the navigation bar */
-  .navbar a {
-    float: left;
+/* Style the links inside the navigation bar */
+.navbar a {
+float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 14px;
     text-decoration: none;
     font-size: 14px;
-  }
-  
-  /* Change the color of links on hover */
-  .navbar a:hover {
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
     background-color: #ddd;
     color: gray;
-  }
-  
-  /* Add a color to the active page */
-  .navbar a.active {
+}
+
+/* Add a color to the active page */
+.navbar a.active {
     background-color: grey;
     color: white;
+<<<<<<< HEAD
   }
 
   /* Style the search field */
@@ -237,3 +234,6 @@
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: gray;}
+=======
+}
+>>>>>>> a20e89545557649b538a83c313d6e5eba2af6dea

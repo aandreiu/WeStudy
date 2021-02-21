@@ -1,0 +1,46 @@
+h1, h2, p {
+	font-family: sans-serif;
+}
+
+form {
+	font-family: sans-serif;
+}
+
+button {
+	border-radius: 12px;
+	background-color: #add8e6;
+	border: none;
+	padding: 10px 15px;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+body {
+	padding-left: 30px;
+}
+
+.curved-box {
+	padding-left: 100px;
+	border-radius: 25px;
+	border: 2px solid #add8e6;
+	padding: 20px;
+	width: 300px;
+	height: 140px;
+}
+
+.center {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.vertical-center {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
