@@ -19,6 +19,10 @@ body {
 	padding-left: 30px;
 }
 
+input {
+	border-radius: 12px;
+}
+
 .curved-box {
 	padding-left: 100px;
 	border-radius: 25px;

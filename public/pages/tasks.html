@@ -10,16 +10,13 @@
     <link href="../../public/css/westudy.css" rel="stylesheet">
 </head>
 
-<body>
-    <div>
-        <div class="head">
-            <h1>
-             Tasks
-            </h1>
-        </div>
+<body style="background-color: #f1f4f9">
+    <!-- Header --> 
+    <div class="head">
+        <h1>Tasks</h1>
     </div>
 
-   <form class="day">
+    <!-- <form class="day">
         <h2>Today:</h2>
         <section class="tasks">
             <input type="checkbox" name="tasks" id="task1" value="task1">
@@ -43,7 +40,28 @@
     </form>
 
     <a id= "add" href="addtasks.html">Add</a>
-    <a id="delete" href="tasks.html">Delete</a> 
+    <a id="delete" href="tasks.html">Delete</a> -->
+
+    <div class="task-header">
+        <h2>Today</h2>
+        <form> 
+            <label for="task-input">Task:</label>
+            <input class="field" type="text" id="task-input" placeholder="Input New Task" required><br><br>
+
+            <label for="finish-date">Finish By:</label>
+            <input class="field" type="date" id="finish-date" name="finish-date" value="<?php echo date('Y-m-d') ?>" required><br><br>
+
+            <span><b>Public?</b></span>
+            <input id="yes" type="radio" name="privacy" value="yes" required>
+            <label for="yes">Yes</label>
+            <input id="no" type="radio" name="privacy" value="no" required> 
+            <label for="no">No</label><br><br>
+
+            <span onclick="newTask()" class="addBtn">Add</span>
+        </form>
+    </div>
+
+    <ul id="task-list"></ul>
 
     <!-- Navigation bar -->
     <div class="navbar">
