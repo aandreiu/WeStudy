@@ -7,6 +7,7 @@ function newTask() {
 
   document.getElementById("task-list").appendChild(new_li);
   document.getElementById("task-input").value = "";
+  document.getElementById("finish-date").value = "";
 
   var span = document.createElement("SPAN");
   var txt = document.createTextNode("\u00D7");
