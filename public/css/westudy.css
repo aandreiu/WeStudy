@@ -68,27 +68,6 @@
     float: center;
 }
 
-/* Styling for Awards Page */
-.award{
-    padding: 10px;
-    vertical-align: left;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-}
-
-.dropdown{
-    padding-left: 20px;
-}
-
-.friend-awards{
-    padding-left: 20px;
-}
-
-.group-awards{
-    padding-left: 20px;
-}
-
 /* Bottom navigation bar styling*/
 .navbar {
     background-color:lightgray;
@@ -188,6 +167,10 @@
     text-decoration: none;
     display: block;
   }
+
+.dropdown{
+    padding-left: 20px;
+}
   
   /* Change color of dropdown links on hover */
   .dropdown-content a:hover {background-color: #ddd;}
@@ -198,6 +181,16 @@
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: gray;}
 
+#myProgress {
+  width: 100%;
+  background-color: grey;
+}
+  
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: green;
+}
 
 /* ---------------------- STYLING FOR TASK PAGES ---------------------- */ 
 /* Style task header */
@@ -277,13 +270,19 @@ ul li.check {
   text-decoration: line-through;
 }
 
-#myProgress {
-    width: 100%;
-    background-color: grey;
-  }
-  
-  #myBar {
-    width: 1%;
-    height: 30px;
-    background-color: green;
-  }
+/* ---------------------- STYLING FOR AWARD PAGES ---------------------- */ 
+/* Style award/star images */
+.award{
+  padding: 10px;
+  vertical-align: left;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  float: left;
+}
+
+.friend-awards,
+.group-awards,
+.indiv-awards {
+  padding-left: 20px;
+}
