@@ -8,6 +8,7 @@
     <link href="../../public/css/bootstrap.min.css" rel="stylesheet">
     <link href="../../public/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="../../public/css/westudy.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0f45b5b100.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -17,24 +18,26 @@
              Friends
             </h1>
          </div>
-         <form class="search" action="action_page.php">
-            <input type="text" placeholder="Search name..." name="search">
-            <button type="submit"><i class="fa fa-search"></i></button>
-         </form><br>
+             <div id="searchFriends" class= "search">
+                 <div class="search">
+                     <input type="text" placeholder="Search name..." name="searchBar"id ="searchBar" aria-label= "Search friends">
+                     <button>Search</button>
+                 </div><br>
+             </div>
          <div class="friends" id="friend1">
-             <img class="avatar" src="../../public/images/avatar.jpeg" alt="avatar"><br><p><br>&nbsp Friend 1 is currently Working on<br>TASK</p>
-         </div><br>
-         <div class="progress">
-            <progress value= "100" max="100"></progress>
-        </div>
-        <div class="friends" id="friend2"> 
-             <img class="avatar" src="../../public/images/avatar2.png" alt="avatar"><br><p><br>&nbsp Friend 2 is currently Working on<br>TASK</p>
+             <img class="avatar" src="../../public/images/avatar.jpeg" alt="avatar"><br><p><br>&nbsp Jane is currently Working on<br>TASK</p>
          </div><br>
          <div class="progress">
             <progress value= "75" max="100"></progress>
         </div>
+        <div class="friends" id="friend2"> 
+             <img class="avatar" src="../../public/images/avatar2.png" alt="avatar"><br><p><br>&nbsp James is currently Working on<br>TASK</p>
+         </div><br>
+         <div class="progress">
+            <progress value= "90" max="100"></progress>
+        </div>
         <div class="friends" id="friend3">
-            <img class="avatar" src="../../public/images/avatar.jpeg" alt="avatar"><br><p><br>&nbsp Friend 3 is currently Working on<br>TASK</p>
+            <img class="avatar" src="../../public/images/avatar.jpeg" alt="avatar"><br><p><br>&nbsp John is currently Working on<br>TASK</p>
         </div><br>
         <div class="progress">
             <progress value= "45" max="100"></progress>
@@ -49,16 +52,17 @@
 
     <!-- Navigation bar --> 
     <div class="navbar">
-        <a href="../../index.html">Home</a>
-        <a href="tasks.html">Tasks</a>
-        <a href="friends.html" class="active">Friends</a>
-        <a href="awards.html">Awards</a>
-        <a href="login.html">Log Out</a>
+        <a href="../../index.html"><i class="fas fa-home"></i></a>
+        <a href="tasks.html"><i class="fas fa-tasks"></i></a>
+        <a href="friends.html" class="active"><i class="fas fa-users"></i></a>
+        <a href="awards.html"><i class="fas fa-star"></i></a>
+        <a href="login.html"><i class="fas fa-sign-out-alt"></i></a>
      </div>
 
     <!-- JavaScript info -->
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="../../public/js/bootstrap.min.js"></script>
+    <script src="../../public/js/search.js"></script>
 
 </body>
 </html>
