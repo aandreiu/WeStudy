@@ -286,3 +286,7 @@ ul li.check {
 .indiv-awards {
   padding-left: 20px;
 }
+
+ #friendsList {
+   list-style-type:none;
+}

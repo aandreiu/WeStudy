@@ -18,36 +18,46 @@
              Friends
             </h1>
          </div>
-             <div id="searchFriends" class= "search">
+             <div id="searchList">
                  <div class="search">
-                     <input type="text" placeholder="Search name..." name="searchBar"id ="searchBar" aria-label= "Search friends">
+                     <input type="text" placeholder="Search name..." name="searchBar"id ="searchFriends" onkeyup="myFunction()">
                      <button>Search</button>
                  </div><br>
              </div>
-         <div class="friends" id="friend1">
-             <img class="avatar" src="../../public/images/avatar.jpeg" alt="avatar"><br><p><br>&nbsp Jane is currently Working on<br>TASK</p>
-         </div><br>
-         <div class="progress">
-            <progress value= "75" max="100"></progress>
-        </div>
-        <div class="friends" id="friend2"> 
-             <img class="avatar" src="../../public/images/avatar2.png" alt="avatar"><br><p><br>&nbsp James is currently Working on<br>TASK</p>
-         </div><br>
-         <div class="progress">
-            <progress value= "90" max="100"></progress>
-        </div>
-        <div class="friends" id="friend3">
-            <img class="avatar" src="../../public/images/avatar.jpeg" alt="avatar"><br><p><br>&nbsp John is currently Working on<br>TASK</p>
-        </div><br>
-        <div class="progress">
-            <progress value= "45" max="100"></progress>
-        </div><br>
-        <div class="friends" id="friend2"> 
-            <img class="avatar" src="../../public/images/avatar2.png" alt="avatar"><br><p><br>&nbsp Friend 4 is currently Working on<br>TASK</p>
-        </div><br>
-        <div class="progress">
-            <progress value= "10" max="100"></progress>
-        </div>
+        <ul id="friendsList">
+             <li>
+                 <div class="friends" id="friend1">
+                     <img class="avatar" src="../../public/images/avatar.jpeg" alt="avatar"><br><a href="#">Mike</a><p>&nbsp is currently working on<br>TASK</p>
+                 </div><br>
+                 <div class="progress">
+                     <progress value= "75" max="100"></progress>
+                 </div>
+             </li>
+             <li>
+                 <div class="friends" id="friend2"> 
+                     <img class="avatar" src="../../public/images/avatar2.png" alt="avatar"><br><a href="#">Jane</a><p>&nbsp is currently working on<br>TASK</p>
+                 </div><br>
+                 <div class="progress">
+                     <progress value= "90" max="100"></progress>
+                 </div>
+             </li>
+             <li>
+                 <div class="friends" id="friend3">
+                     <img class="avatar" src="../../public/images/avatar.jpeg" alt="avatar"><br><a href="#">Tom</a><p>&nbsp is currently working on<br>TASK</p>
+                 </div><br>
+                 <div class="progress">
+                     <progress value= "45" max="100"></progress>
+                 </div>
+             </li>
+             <li>
+                 <div class="friends" id="friend4"> 
+                     <img class="avatar" src="../../public/images/avatar2.png" alt="avatar"><br><a href="#">Jenny</a><p>&nbsp is currently working on<br>TASK</p>
+                 </div><br>
+                 <div class="progress">
+                     <progress value= "10" max="100"></progress>
+                 </div>
+             </li>
+         </ul>
      </div>
 
     <!-- Navigation bar --> 
