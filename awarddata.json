@@ -1,0 +1,29 @@
+{
+	"awards": [
+		{
+			"name": "New Friend!",
+			"dateEarned": "MM/DD",
+			"description": "Sign up for WeStudy"	
+		},
+		{
+			"name": "Let's Get to Work!",
+			"dateEarned": "MM/DD",
+			"description": "Make 1 Task"	
+		},
+		{
+			"name": "I'm Not Alone!",
+			"dateEarned": "MM/DD",
+			"description": "Make 1 friend"	
+		},
+		{
+			"name": "Workaholic",
+			"dateEarned": "MM/DD",
+			"description": "Make 5 Tasks"	
+		},
+		{
+			"name": "Party Time",
+			"dateEarned": "MM/DD",
+			"description": "Join a Group on WeStudy"	
+		}
+	]
+}

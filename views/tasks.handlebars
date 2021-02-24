@@ -1,0 +1,67 @@
+<!doctype html> 
+
+<html>
+<head>
+	<title>Tasks</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/css/westudy.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0f45b5b100.js" crossorigin="anonymous"></script>
+</head>
+
+<body style="background-color: #f1f4f9">
+    <!-- Header --> 
+    <div class="head">
+        <h1>Tasks</h1>
+    </div> 
+
+    <div class="dropdown">
+        <button class="dropbtn">Tasks Today</button>
+            <div class="dropdown-content">
+                <a href="future-tasks.html">Tasks This Week</a><br>
+            </div>
+    </div>
+
+    <!-- Form header for adding tasks --> 
+    <div class="task-header">
+        <h2>Today</h2>
+        <form> 
+            <label for="task-input">Task:</label>
+            <input class="field" type="text" id="task-input" placeholder="Enter Task" required><br><br>
+
+            <label for="finish-date">Finish By:</label>
+            <input class="field" type="date" id="finish-date" name="finish-date" value="<?php echo date('Y-m-d') ?>" required><br><br>
+
+            <span><b>Public?</b></span>
+            <input id="yes" type="radio" name="privacy" value="yes" required>
+            <label for="yes">Yes</label>
+            <input id="no" type="radio" name="privacy" value="no" required> 
+            <label for="no">No</label><br><br>
+
+            <span onclick="newTask()" class="addBtn">Add</span>
+        </form>
+    </div>
+
+    <ul id="task-list"></ul>
+    <ul>
+        {{#each tasks}}
+        <li><p>{{taskName}}</p></li>
+        {{/each}}
+    <!-- Navigation bar -->
+    <div class="navbar">
+        <a href="../../index.html"><i class="fas fa-home"></i></a>
+        <a href="tasks.html" class="active"><i class="fas fa-tasks"></i></a>
+        <a href="friends.html"><i class="fas fa-users"></i></a>
+        <a href="awards.html"><i class="fas fa-star"></i></a>
+        <a href="login.html"><i class="fas fa-sign-out-alt"></i></a>
+     </div>
+
+    <!-- JavaScript info -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="../../public/js/bootstrap.min.js"></script>
+    <script src="../../public/js/westudy.js"></script>
+
+</body>
+</html>

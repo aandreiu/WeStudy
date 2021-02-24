@@ -1,0 +1,29 @@
+{
+	"tasks": [
+		{
+			"taskName": "New Friend!",
+			"dateEarned": "MM/DD",
+			"description": "Sign up for WeStudy"	
+		},
+		{
+			"taskName": "New Friend!",
+			"dateEarned": "MM/DD",
+			"description": "Make 1 Task"	
+		},
+		{
+			"taskName": "New Friend!",
+			"dateEarned": "MM/DD",
+			"description": "Make 1 friend"	
+		},
+		{
+			"taskName": "New Friend!",
+			"dateEarned": "MM/DD",
+			"description": "Make 5 Tasks"	
+		},
+		{
+			"taskName": "New Friend!",
+			"dateEarned": "MM/DD",
+			"description": "Join a Group on WeStudy"	
+		}
+	]
+}
