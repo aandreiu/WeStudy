@@ -2,7 +2,7 @@
 
 <html>
 <head>
-	<title>Friends</title>
+	<title>Groups</title>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -14,10 +14,9 @@
 <body style="background-color: #f1f4f9">
      <div class="container">
          <div class="head">
-            <h1>Friends
-            </h1>
+            <h1>Groups</h1>
          </div>
-    <!-- Dropdown menu to navigate between different pages of awards-->
+     <!-- Dropdown menu to navigate between different pages of awards-->
     <div class="dropdown">
         <button class="dropbtn">Filter By:</button>
         <div class="dropdown-content">
@@ -27,21 +26,17 @@
     </div><br><br>
          <div id="searchList">
              <div class="search">
-                 <input type="text" placeholder="Search name..." name="searchBar"id ="searchFriends" onkeyup="myFunction()">
+                 <input type="text" placeholder="Search name..." name="searchBar"id ="searchGroups" onkeyup="myGroups()">
                  <button>Search</button>
              </div><br>
          </div>
              
-        <ul id="friendsList">
-            {{#each friends}}
+        <ul id="groupsList">
+            {{#each groups}}
              <li>
-                 <div class="friends" id="friend{{id}}">
-                     <img class="avatar" src="../../images/avatar.jpeg" alt="avatar"><p>&nbsp</p><a href="#">{{name}}</a><p>&nbsp is currently working on<br>{{task}}</p><br>
+                 <div class="groups" id="groups{{id}}">
+                     <img class="avatar" src="../../images/avatar.jpeg" alt="avatar"><br><a href="#">{{name}}</a><p>&nbsp There are currently {{participants}} group members</p>
                  </div><br>
-                 <div class="tasks"><p>Tasks Completed = {{complete_task}} <br> Total Tasks = {{total_task}}</p></div>
-                 <div class="progress">
-                     <label for="tasks">Task Progress:&nbsp</label><progress value= {{complete_task}} max={{total_task}}></progress>
-                 </div>
              </li>
              {{/each}}
          </ul>
@@ -59,7 +54,7 @@
     <!-- JavaScript info -->
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
-    <script src="../../js/search.js"></script>
+    <script src="../../js/searchgroup.js"></script>
 
 </body>
 </html>

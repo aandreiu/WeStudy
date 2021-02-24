@@ -12,6 +12,7 @@ var index = require('./routes/index');
 var tasks = require('./routes/tasks');
 var friends = require('./routes/friends');
 var awards = require('./routes/awards');
+var groups = require('./routes/groups');
 
 // Example route
 // var user = require('./routes/user');
@@ -48,6 +49,7 @@ app.get('/group-awards', awards.viewGroups);
 app.get('/login', index.viewLogin);
 app.get('/signup', index.viewSignUp);
 app.get('/future-tasks', tasks.viewFuture);
+app.get('/groups', groups.view);
 // Example route
 // app.get('/users', user.list);
 

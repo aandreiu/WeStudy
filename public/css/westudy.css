@@ -50,14 +50,22 @@
 .friends{
     display: flex;
     align-items: left;
-    justify-content: left; 
+    justify-content: left;
+}
+
+#friendsList{
+    align-items: left;
 }
 
 .friends p{
+    margin-top: 20px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.friends a{
+    margin-top: 20px;
+}
 .progress{
     height: 20px;
     font-size: 15px;
@@ -123,9 +131,10 @@
 .navbar {
   background-color:lightgray;
   overflow: hidden;
-  position: fixed;
   bottom: 0;
   width: 100%;
+  z-index: 0;
+  position: sticky;
 }
   
 /* Style the links inside the navigation bar */
@@ -321,4 +330,15 @@ ul li.check {
 .group-awards,
 .indiv-awards {
   padding-left: 20px;
+}
+
+/* ---------------------- STYLING FOR SEARCH BAR ----------------------- */ 
+#searchList{
+    margin-left: 20px;
+}
+
+/* ---------------------- STYLING FOR PROGRESS BAR ----------------------- */ 
+.tasks{
+    color: grey;
+    font-weight: 300;
 }
