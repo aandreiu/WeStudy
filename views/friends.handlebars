@@ -11,19 +11,20 @@
     <script src="https://kit.fontawesome.com/0f45b5b100.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body style="background-color: #f1f4f9">
      <div class="container">
          <div class="head">
-            <h1>
-             Friends
+            <h1>Friends
             </h1>
          </div>
-             <div id="searchList">
-                 <div class="search">
-                     <input type="text" placeholder="Search name..." name="searchBar"id ="searchFriends" onkeyup="myFunction()">
-                     <button>Search</button>
-                 </div><br>
-             </div>
+
+         <div id="searchList">
+             <div class="search">
+                 <input type="text" placeholder="Search name..." name="searchBar"id ="searchFriends" onkeyup="myFunction()">
+                 <button>Search</button>
+             </div><br>
+         </div>
+             
         <ul id="friendsList">
             {{#each friends}}
              <li>

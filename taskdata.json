@@ -1,29 +1,19 @@
 {
 	"tasks": [
 		{
-			"taskName": "New Friend!",
-			"dateEarned": "MM/DD",
-			"description": "Sign up for WeStudy"	
+			"taskName": "Discussion post"
 		},
 		{
-			"taskName": "New Friend!",
-			"dateEarned": "MM/DD",
-			"description": "Make 1 Task"	
+			"taskName": "COGS 120 A6"
 		},
 		{
-			"taskName": "New Friend!",
-			"dateEarned": "MM/DD",
-			"description": "Make 1 friend"	
+			"taskName": "CSE PA8"
 		},
 		{
-			"taskName": "New Friend!",
-			"dateEarned": "MM/DD",
-			"description": "Make 5 Tasks"	
+			"taskName": "Watch lectures"
 		},
 		{
-			"taskName": "New Friend!",
-			"dateEarned": "MM/DD",
-			"description": "Join a Group on WeStudy"	
+			"taskName": "Register for classes"
 		}
 	]
 }
