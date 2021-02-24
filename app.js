@@ -38,6 +38,7 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
+app.get('/', index.view);
 app.get('/index', index.view);
 app.get('/tasks', tasks.view);
 app.get('/friends', friends.view);
