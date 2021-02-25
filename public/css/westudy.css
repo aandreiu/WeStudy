@@ -104,7 +104,7 @@
 .navbar {
   background-color:lightgray;
   overflow: hidden;
-  position: fixed;
+  position: sticky;
   bottom: 0;
   width: 100%;
   z-index: 0;
@@ -116,7 +116,7 @@
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 16px 28px;
+  padding: 16px 25px;
   text-decoration: none;
   font-size: 16px;
 }
