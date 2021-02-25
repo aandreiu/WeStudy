@@ -15,6 +15,7 @@ var awards = require('./routes/awards');
 var groups = require('./routes/groups');
 var breaks = require('./routes/breaks');
 var profile = require('./routes/profile');
+var groupprofile = require('./routes/groupprofile');
 
 // Example route
 // var user = require('./routes/user');
@@ -54,6 +55,7 @@ app.get('/future-tasks', tasks.viewFuture);
 app.get('/groups', groups.view);
 app.get('/breaks', breaks.view);
 app.get('/profile', profile.view);
+app.get('/groupprofile', groupprofile.view);
 // Example route
 // app.get('/users', user.list);
 
