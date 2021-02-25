@@ -1,19 +1,21 @@
-function myFunction() {
-  // Declare variables
-  var input, filter, ul, li, a, i, txtValue;
+function myFriends() {
+  var input, f, ul, li, a, j, value;
   input = document.getElementById('searchFriends');
-  filter = input.value.toUpperCase();
+  f = input.value.toUpperCase();
   ul = document.getElementById("friendsList");
   li = ul.getElementsByTagName('li');
 
-  // Loop through all list items, and hide those who don't match the search query
-  for (i = 0; i < li.length; i++) {
-    a = li[i].getElementsByTagName("a")[0];
-    txtValue = a.textContent || a.innerText;
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      li[i].style.display = "";
+  for (j = 0; j < li.length; j+=1) {
+    a = li[j].getElementsByTagName("a")[0];
+    if (value = a.textContent) {
+      value = a.textContent;
     } else {
-      li[i].style.display = "none";
+      value = a.innerText;
+    }
+    if (value.toUpperCase().indexOf(f) > -1) {
+      li[j].style.display = "";
+    } else {
+      li[j].style.display = "none";
     }
   }
 }
