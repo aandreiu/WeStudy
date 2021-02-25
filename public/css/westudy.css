@@ -39,33 +39,6 @@
     background-color: lightgray;
 }
 
-/* Styling for Friends Page */ 
-.avatar{
-    vertical-align: left;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-}
-
-.friends{
-    display: flex;
-    align-items: left;
-    justify-content: left;
-}
-
-#friendsList{
-    align-items: left;
-}
-
-.friends p{
-    margin-top: 20px;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.friends a{
-    margin-top: 20px;
-}
 .progress{
     height: 20px;
     font-size: 15px;
@@ -236,6 +209,37 @@
   margin: 5px 5px 5px 5px;”
 }
 
+/* ---------------------- STYLING FOR BREAKS PAGE --------------------- */ 
+
+
+/* ---------------------- STYLING FOR FRIENDS PAGE -------------------- */
+.avatar{
+  vertical-align: left;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.friends{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+#friendsList{
+  align-items: left;
+}
+
+.friends p{
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.friends a{
+  margin-top: 20px;
+}
+
 /* ---------------------- STYLING FOR TASK PAGES ---------------------- */ 
 /* Style task header */
 .task-header {
@@ -332,12 +336,12 @@ ul li.check {
   padding-left: 20px;
 }
 
-/* ---------------------- STYLING FOR SEARCH BAR ----------------------- */ 
+/* ---------------------- STYLING FOR SEARCH BAR --------------------- */ 
 #searchList{
     margin-left: 20px;
 }
 
-/* ---------------------- STYLING FOR PROGRESS BAR ----------------------- */ 
+/* ---------------------- STYLING FOR PROGRESS BAR ------------------- */ 
 .tasks{
     color: grey;
     font-weight: 300;

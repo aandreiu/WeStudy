@@ -2,7 +2,7 @@
 
 <html>
 <head>
-	<title>Awards</title>
+	<title>Breaks</title>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -14,33 +14,18 @@
 <body style="background-color: #f1f4f9">
     <!-- Header --> 
     <div class="head">
-        <h1>My Awards</h1>
+        <h1>Breaks</h1>
     </div>
 
-    <!-- Dropdown menu to navigate between different pages of awards-->
-    <div class="dropdown">
-        <button class="dropbtn">Filter By:</button>
-        <div class="dropdown-content">
-            <a href="/awards">My Awards</a>
-            <a href="/friend-awards">Friend Awards</a>
-            <a href="/group-awards">Group Awards</a>
-        </div>
-    </div><br><br>
-
-    <!-- Individual awards -->
-    {{#each awards}}
-    <div class="indiv-awards">
-        <p><img class="award" src="../../images/yellow-star.png" alt="earned award">{{name}}<br>{{dateEarned}}<br>{{description}}</p><br>
-    </div>
-    {{/each}}
+    
 
     <!-- Navigation bar -->
     <div class="navbar">
         <a href="/index"><i class="fas fa-home"></i></a>
         <a href="/tasks"><i class="fas fa-tasks"></i></a>
-        <a href="/breaks"><i class="fas fa-clock"></i></a>
+        <a href="/breaks" class="active"><i class="fas fa-clock"></i></a>
         <a href="/friends"><i class="fas fa-users"></i></a>
-        <a href="/awards" class="active"><i class="fas fa-star"></i></a>
+        <a href="/awards"><i class="fas fa-star"></i></a>
         <a href="/login"><i class="fas fa-sign-out-alt"></i></a>
      </div>
 
