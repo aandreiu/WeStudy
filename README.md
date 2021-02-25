@@ -8,7 +8,8 @@ A platform to help increase focus and productivity through social and collective
 
 Scripts citations: 
 Tasks page script help: https://www.w3schools.com/howto/howto_js_todolist.asp
-Search/Filter script help:https://www.w3schools.com/howto/howto_js_filter_lists.asp 
+Search/Filter script help: https://www.w3schools.com/howto/howto_js_filter_lists.asp
+Timer scipt help: https://css-tricks.com/how-to-create-an-animated-countdown-timer-with-html-css-and-javascript/
 Icon help: https://www.w3schools.com/icons/
 Navigation bar script help: https://www.w3schools.com/howto/howto_js_topnav.asp 
 

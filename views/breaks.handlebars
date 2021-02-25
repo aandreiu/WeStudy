@@ -11,13 +11,26 @@
     <script src="https://kit.fontawesome.com/0f45b5b100.js" crossorigin="anonymous"></script>
 </head>
 
-<body style="background-color: #f1f4f9">
+<body style="background-color: #f1f4f9" >
     <!-- Header --> 
     <div class="head">
         <h1>Breaks</h1>
     </div>
 
-    
+    <div class="breaks">    
+        <!-- Timer --> 
+        <div class="timer-style" id="timer"></div><br>
+        <span onclick="startTimer()" class="addBtn">Start Next Break</span>
+        <span class="addBtn">Pause</span><br><br>
+
+        <!-- List of breaks scheduled --> 
+        <h4>Scheduled Today</h4>
+        <ol class="breaks">
+            <li>Get up and stretch, 10:30am - 10:45am</li>
+            <li>Make and eat lunch, 2:00pm - 2:30pm</li>
+            <li>Free time, 6:00pm - 6:3-pm</li>
+        </ol>
+    </div>
 
     <!-- Navigation bar -->
     <div class="navbar">
@@ -32,6 +45,7 @@
     <!-- JavaScript info --> 
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/breaks.js"></script>
 
 </body>
 </html>
