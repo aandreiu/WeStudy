@@ -406,3 +406,9 @@ ul li.check {
     color: grey;
     font-weight: 300;
 }
+
+/* ---------------------- STYLING FOR CLOSE BUTTON PROFILE ------------------- */ 
+#close{
+  color: black;
+  padding: 20px;
+}

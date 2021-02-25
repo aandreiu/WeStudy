@@ -14,6 +14,7 @@ var friends = require('./routes/friends');
 var awards = require('./routes/awards');
 var groups = require('./routes/groups');
 var breaks = require('./routes/breaks');
+var profile = require('./routes/profile');
 
 // Example route
 // var user = require('./routes/user');
@@ -52,6 +53,7 @@ app.get('/signup', index.viewSignUp);
 app.get('/future-tasks', tasks.viewFuture);
 app.get('/groups', groups.view);
 app.get('/breaks', breaks.view);
+app.get('/profile', profile.view);
 // Example route
 // app.get('/users', user.list);
 
