@@ -10,12 +10,15 @@ var handlebars = require('express3-handlebars')
 
 var index = require('./routes/index');
 var tasks = require('./routes/tasks');
+var futuretasks = require('./routes/futuretasks');
 var friends = require('./routes/friends');
 var awards = require('./routes/awards');
 var groups = require('./routes/groups');
 var breaks = require('./routes/breaks');
 var profile = require('./routes/profile');
 var groupprofile = require('./routes/groupprofile');
+var add = require('./routes/add');
+var addfuture = require('./routes/addfuture');
 
 // Example route
 // var user = require('./routes/user');
@@ -45,17 +48,22 @@ if ('development' == app.get('env')) {
 app.get('/', index.viewLogin);
 app.get('/index', index.view);
 app.get('/tasks', tasks.view);
+app.get('/futuretasks', futuretasks.view);
 app.get('/friends', friends.view);
 app.get('/awards', awards.view);
 app.get('/friend-awards', awards.viewFriends);
 app.get('/group-awards', awards.viewGroups);
 app.get('/login', index.viewLogin);
 app.get('/signup', index.viewSignUp);
-app.get('/future-tasks', tasks.viewFuture);
 app.get('/groups', groups.view);
 app.get('/breaks', breaks.view);
 app.get('/profile', profile.view);
 app.get('/groupprofile', groupprofile.view);
+app.get('/add', add.addTask);
+app.get('/addfuture', addfuture.addFutureTask);
+app.get('/hometasks', index.viewTasks);
+
+
 // Example route
 // app.get('/users', user.list);
 

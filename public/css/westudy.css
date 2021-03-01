@@ -328,6 +328,7 @@ ol.breaks {
   padding: 10px 10px;
   width: 25%;
   background: lightgray;
+  border: none;
 } 
 
 /* Style X button */

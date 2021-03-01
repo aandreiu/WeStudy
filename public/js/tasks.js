@@ -1,13 +1,13 @@
 // Create new task after clicking Add button
 function newTask() {
   var new_li = document.createElement("li");
-  var input = document.getElementById("task-input").value;
+  var input = document.getElementById("task").value;
   var task = document.createTextNode(input);
   new_li.appendChild(task);
 
   document.getElementById("task-list").appendChild(new_li);
-  document.getElementById("task-input").value = "";
-  document.getElementById("finish-date").value = "";
+  document.getElementById("task").value = "";
+  document.getElementById("duedate").value = "";
 
   var span = document.createElement("SPAN");
   var txt = document.createTextNode("\u00D7");

@@ -27,12 +27,12 @@
     <!-- Form header for adding tasks --> 
     <div class="task-header">
         <h2>This Week</h2>
-        <form> 
-            <label for="task-input">Task:</label>
-            <input class="field" type="text" id="task-input" placeholder="Enter Task" required><br><br>
+        <form method="get" action="/addfuture"> 
+            <label for="task">Task:</label>
+            <input type="text" class="field" id="task" name="task" placeholder="Enter Task" required><br><br>
 
-            <label for="finish-date">Finish By:</label>
-            <input class="field" type="date" id="finish-date" name="finish-date" value="<?php echo date('Y-m-d') ?>" required><br><br>
+            <label for="duedate">Finish By:</label>
+            <input type="date" class="field" id="duedate" name="duedate" value="<?php echo date('Y-m-d') ?>" required><br><br>
 
             <span><b>Public?</b></span>
             <input id="yes" type="radio" name="privacy" value="yes" required>
@@ -40,11 +40,15 @@
             <input id="no" type="radio" name="privacy" value="no" required> 
             <label for="no">No</label><br><br>
 
-            <span onclick="newFutureTask()" class="addBtn">Add</span>
+            <input type="submit" id="submitBtn" class="addBtn" value="Add"></input>
         </form>
     </div>
 
-    <ul id="task-list"></ul>
+    <ul id="task-list">
+        {{#each futuretasks}}
+        <li><p>{{taskName}}</p></li>
+        {{/each}}
+    </ul>
 
     <!-- Navigation bar -->
     <div class="navbar">
@@ -59,7 +63,7 @@
     <!-- JavaScript info -->
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
-    <script src="../../js/future-tasks.js"></script>
+    <script src="../../js/tasks.js"></script>
 
 </body>
 </html>

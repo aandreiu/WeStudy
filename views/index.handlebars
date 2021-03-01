@@ -18,6 +18,25 @@
     </div>
 
     <div class="overview">
+        <h4>Today</h4>
+        <ul id="task-list">
+            {{#each tasks}}
+            <li><p>{{taskName}}</p></li>
+            {{/each}}
+        </ul>
+
+        <h4>This Week</h4>
+        <ul id="task-list">
+            {{#each futuretasks}}
+            <li><p>{{taskName}}</p></li>
+            {{/each}}
+        </ul>
+
+        <h4>Scheduled Breaks</h4>
+        <p style="padding-left: 20px">Get up and stretch, 10:30am - 10:45am</p>
+        <p style="padding-left: 20px">Make and eat lunch, 2:00pm - 2:30pm</p>
+        <p style="padding-left: 20px">Free time, 6:00pm - 6:30pm</p>
+
         <h4>Friends</h4>
         <img class="overview-friends" src="../../images/avatar2.png" alt="avatar">
         <img class="overview-friends" src="../../images/avatar2.png" alt="avatar">
@@ -31,28 +50,6 @@
         <img class="overview-friends" src="../../images/avatar2.png" alt="avatar">
         <img class="overview-friends" src="../../images/avatar2.png" alt="avatar">
         <img class="overview-friends" src="../../images/avatar2.png" alt="avatar"><br>
-
-        <h4>Scheduled Breaks</h4>
-        <p style="padding-left: 20px">Get up and stretch, 10:30am - 10:45am</p>
-        <p style="padding-left: 20px">Make and eat lunch, 2:00pm - 2:30pm</p>
-        <p style="padding-left: 20px">Free time, 6:00pm - 6:30pm</p>
-
-        <h4>Today</h4>
-        <ul>
-            <li>Discussion post</li>
-            <li>COGS 120 A6</li>
-            <li>CSE PA8</li>
-            <li>Watch lectures</li>
-            <li>Register for classes</li>
-        </ul>
-
-        <h4>Tomorrow</h4>
-        <ul>
-            <li>Studio presentation</li>
-            <li>Work 1-5pm</li>
-            <li>COGS 120 Quiz 4</li>
-            <li>COGS 101B Quiz 6</li>
-        </ul>
 
     </div>
 

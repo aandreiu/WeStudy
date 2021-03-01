@@ -1,10 +1,12 @@
+var taskData = require('../taskdata.json');
+var futureTaskData = require('../futuretasksdata.json');
 
 /*
  * GET home page.
  */
 
 exports.view = function(req, res){
-  res.render('index');
+  	res.render('index');
  };
 
  /*
@@ -20,3 +22,8 @@ exports.viewLogin = function(req,res){
 exports.viewSignUp = function(req,res){
 	res.render('signup');
 };
+
+exports.viewTasks = function(req, res){
+	console.log(taskData);
+  	res.render('index', taskData);
+}
