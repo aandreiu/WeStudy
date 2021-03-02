@@ -80,7 +80,13 @@ for (i = 0; i < x_list.length; i++) {
 var x = document.getElementsByClassName("close"); var i;
 for (i = 0; i < x.length; i++) {
   x[i].onclick = function() {
-    var div = this.parentElement;
-    div.style.display = "none";
+    if(window.confirm("Are you sure you want to delete this scheduled break?")) {
+      text="You pressed OK";
+      var div = this.parentElement;
+      div.style.display = "none";
+    } else {
+      text="You pressed Cancel";
+    }
   }
 }
+
