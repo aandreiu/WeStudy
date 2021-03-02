@@ -17,18 +17,34 @@
         <h1>Breaks</h1>
     </div>
 
-    <div class="breaks">    
+    <div class="breaks main">    
         <!-- Timer --> 
         <div class="timer-style" id="timer"></div><br>
         <span onclick="startTimer()" class="addBtn">Start Next Break</span>
 
+
         <!-- List of breaks scheduled --> 
         <h4>Scheduled Today</h4>
+        {{#each breaks}}
         <ol class="breaks">
-            <li>Get up and stretch, 10:30am - 10:45am</li>
-            <li>Make and eat lunch, 2:00pm - 2:30pm</li>
-            <li>Free time, 6:00pm - 6:3-pm</li>
+            <li>{{what}}, {{start}} - {{end}}</li>
         </ol>
+        {{/each}}
+
+        <!-- Add breaks --> 
+        <h4>Add New Break</h4>
+        <form method="get" action="/addbreak">
+            <label for="what">Break:</label>
+            <input type="text" class="field" id="what" name="what" placeholder="Enter Break Activity" required><br><br>
+
+            <label for="starttime">Start Time:</label>
+            <input type="time" class="field" id="starttime" name="starttime" required><br><br>
+
+            <label for="endtime">End Time:</label>
+            <input type="time" class="field" id="endtime" name="endtime" required> <br><br>
+
+            <input type="submit" id="submitBtn" class="addBtn" value="Add"></input><br><br>
+        </form>
     </div>
 
     <!-- Navigation bar -->

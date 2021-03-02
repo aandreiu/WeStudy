@@ -1,3 +1,6 @@
+var data = require('../breakdata.json');
+
 exports.view = function(req, res){
-  	res.render('breaks');
+	console.log(data);
+  	res.render('breaks', data);
  };

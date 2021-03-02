@@ -1,0 +1,19 @@
+{
+	"breaks": [
+		{
+			"what": "Get up and stretch",
+			"start": "10:00am",
+			"end": "10:15am"	
+		},
+		{
+			"what": "Make and eat lunch",
+			"start": "2:00pm",
+			"end": "2:30pm"	
+		},
+		{
+			"what": "Free time",
+			"start": "6:30pm",
+			"end": "7:00pm"		
+		}
+	]
+}

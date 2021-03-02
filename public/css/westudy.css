@@ -133,6 +133,11 @@
   color: white;
 }
 
+.main {
+  padding: 16px;
+  margin-bottom: 30px;
+}
+
 /* ---------------------- STYLING FOR DROPDOWN ------------------------ */
 /* Dropdown Button */
 .dropbtn {
