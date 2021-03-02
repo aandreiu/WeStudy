@@ -22,13 +22,12 @@
         <div class="timer-style" id="timer"></div><br>
         <span onclick="startTimer()" class="addBtn">Start Next Break</span>
 
-
         <!-- List of breaks scheduled --> 
         <h4>Scheduled Today</h4>
         {{#each breaks}}
-        <ol class="breaks">
+        <ul class="task-list">
             <li>{{what}}, {{start}} - {{end}}</li>
-        </ol>
+        </ul>
         {{/each}}
 
         <!-- Add breaks --> 
@@ -37,10 +36,9 @@
             <label for="what">Break:</label>
             <input type="text" class="field" id="what" name="what" placeholder="Enter Break Activity" required><br><br>
 
-            <label for="starttime">Start Time:</label>
-            <input type="time" class="field" id="starttime" name="starttime" required><br><br>
-
-            <label for="endtime">End Time:</label>
+            <label for="starttime">Time:</label>
+            <input type="time" class="field" id="starttime" name="starttime" required>
+            <label for="endtime"> to </label>
             <input type="time" class="field" id="endtime" name="endtime" required> <br><br>
 
             <input type="submit" id="submitBtn" class="addBtn" value="Add"></input><br><br>

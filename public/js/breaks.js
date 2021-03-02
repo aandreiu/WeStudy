@@ -65,3 +65,22 @@ function casharray() {
     .getElementById("path-remaining")
     .setAttribute("stroke-dasharray", circleDasharray);
 }
+
+// Add X button on each task
+var x_list = document.getElementsByTagName("LI"); var i;
+for (i = 0; i < x_list.length; i++) {
+  var span = document.createElement("SPAN");
+  var txt = document.createTextNode("\u00D7");
+  span.className = "close";
+  span.appendChild(txt);
+  x_list[i].appendChild(span);
+}
+
+// Click on a close button to hide the current list item
+var x = document.getElementsByClassName("close"); var i;
+for (i = 0; i < x.length; i++) {
+  x[i].onclick = function() {
+    var div = this.parentElement;
+    div.style.display = "none";
+  }
+}

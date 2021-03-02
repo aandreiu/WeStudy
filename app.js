@@ -19,6 +19,7 @@ var profile = require('./routes/profile');
 var groupprofile = require('./routes/groupprofile');
 var add = require('./routes/add');
 var addfuture = require('./routes/addfuture');
+var addbreak = require('./routes/addbreak');
 
 // Example route
 // var user = require('./routes/user');
@@ -62,7 +63,7 @@ app.get('/groupprofile', groupprofile.view);
 app.get('/add', add.addTask);
 app.get('/addfuture', addfuture.addFutureTask);
 app.get('/hometasks', index.viewTasks);
-
+app.get('/addbreak', addbreak.addBreak);
 
 // Example route
 // app.get('/users', user.list);
