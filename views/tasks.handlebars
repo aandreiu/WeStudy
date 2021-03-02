@@ -17,38 +17,40 @@
         <h1>Tasks</h1>
     </div> 
 
-    <div class="dropdown">
-        <button class="dropbtn">Tasks Today</button>
-            <div class="dropdown-content">
-                <a href="/futuretasks">Tasks This Week</a><br>
-            </div>
+    <div class="main">
+        <div class="dropdown">
+            <button class="dropbtn">Tasks Today</button>
+                <div class="dropdown-content">
+                    <a href="/futuretasks">Tasks This Week</a><br>
+                </div>
+        </div>
+
+        <!-- Form header for adding tasks --> 
+        <div class="task-header">
+            <h2>Today</h2>
+            <form method="get" action="/add"> 
+                <label for="task">Task:</label>
+                <input type="text" class="field" id="task" name="task" placeholder="Enter Task" required><br><br>
+
+                <label for="duedate">Finish By:</label>
+                <input type="date" class="field" id="duedate" name="duedate" value="<?php echo date('Y-m-d') ?>" required><br><br>
+
+                <span><b>Public?</b></span>
+                <input id="yes" type="radio" name="privacy" value="yes" required>
+                <label for="yes">Yes</label>
+                <input id="no" type="radio" name="privacy" value="no" required> 
+                <label for="no">No</label><br><br>
+
+                <input type="submit" id="submitBtn" class="addBtn" value="Add"></input>
+            </form>
+        </div><br>
+
+        <ul id="task-list">
+            {{#each tasks}}
+            <li><p>{{taskName}}</p></li>
+            {{/each}}
+        </ul>
     </div>
-
-    <!-- Form header for adding tasks --> 
-    <div class="task-header">
-        <h2>Today</h2>
-        <form method="get" action="/add"> 
-            <label for="task">Task:</label>
-            <input type="text" class="field" id="task" name="task" placeholder="Enter Task" required><br><br>
-
-            <label for="duedate">Finish By:</label>
-            <input type="date" class="field" id="duedate" name="duedate" value="<?php echo date('Y-m-d') ?>" required><br><br>
-
-            <span><b>Public?</b></span>
-            <input id="yes" type="radio" name="privacy" value="yes" required>
-            <label for="yes">Yes</label>
-            <input id="no" type="radio" name="privacy" value="no" required> 
-            <label for="no">No</label><br><br>
-
-            <input type="submit" id="submitBtn" class="addBtn" value="Add"></input>
-        </form>
-    </div><br>
-
-    <ul id="task-list">
-        {{#each tasks}}
-        <li><p>{{taskName}}</p></li>
-        {{/each}}
-    </ul>
 
     <!-- Navigation bar -->
     <div class="navbar">

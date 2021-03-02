@@ -17,22 +17,24 @@
         <h1>My Awards</h1>
     </div>
 
-    <!-- Dropdown menu to navigate between different pages of awards-->
-    <div class="dropdown">
-        <button class="dropbtn">Filter By:</button>
-        <div class="dropdown-content">
-            <a href="/awards">My Awards</a>
-            <a href="/friend-awards">Friend Awards</a>
-            <a href="/group-awards">Group Awards</a>
-        </div>
-    </div><br><br>
+    <div class="main">
+        <!-- Dropdown menu to navigate between different pages of awards-->
+        <div class="dropdown">
+            <button class="dropbtn">Filter By:</button>
+            <div class="dropdown-content">
+                <a href="/awards">My Awards</a>
+                <a href="/friend-awards">Friend Awards</a>
+                <a href="/group-awards">Group Awards</a>
+            </div>
+        </div><br><br>
 
-    <!-- Individual awards -->
-    {{#each awards}}
-    <div class="indiv-awards">
-        <p><img class="award" src="../../images/yellow-star.png" alt="earned award">{{name}}<br>{{dateEarned}}<br>{{description}}</p><br>
+        <!-- Individual awards -->
+        {{#each awards}}
+        <div class="indiv-awards">
+            <p><img class="award" src="../../images/yellow-star.png" alt="earned award">{{name}}<br>{{dateEarned}}<br>{{description}}</p><br>
+        </div>
+        {{/each}}
     </div>
-    {{/each}}
 
     <!-- Navigation bar -->
     <div class="navbar">

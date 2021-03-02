@@ -12,18 +12,20 @@
 </head>
 
 <body style="background-color: #f1f4f9">
-     <div class="container">
+     <div class="container main">
          <div class="head">
             <h1>Groups</h1>
          </div>
-     <!-- Dropdown menu to navigate between different pages of awards-->
-    <div class="dropdown">
-        <button class="dropbtn">Filter By:</button>
-        <div class="dropdown-content">
-            <a href="/groups">My Groups</a>
-            <a href="/friends">My Friends</a>
-        </div>
-    </div><br><br>
+
+         <!-- Dropdown menu to navigate between different pages of awards-->
+        <div class="dropdown">
+            <button class="dropbtn">Filter By:</button>
+            <div class="dropdown-content">
+                <a href="/groups">My Groups</a>
+                <a href="/friends">My Friends</a>
+            </div>
+        </div><br><br>
+
          <div id="searchList">
              <div class="search">
                  <input type="text" placeholder="Search name..." name="searchBar"id ="searchGroups" onkeyup="myGroups()">
