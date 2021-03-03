@@ -1,3 +1,4 @@
+var data = require('../groupdata.json');
 var data = require('../frienddata.json');
 
 exports.view = function(req, res){

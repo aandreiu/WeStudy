@@ -19,18 +19,22 @@
 
     <div class="overview main">
         <h4>This Week</h4>
+         <ul id="task-list">
         {{#each futuretasks}}
-        <ul id="task-list">
             <li><p>{{taskName}}</p></li>
-        </ul>
         {{/each}}
+        </ul>
 
         <h4>Scheduled Breaks</h4>
-        {{#each breaks}}
-        <ul class="task-list">
-            <li>{{what}}, {{start}} - {{end}}</li>
+        <ul id="breaks">
+         {{#each breaks}}
+            <li>
+              <ul class="task-list">
+                 <li>{{what}}, {{start}} - {{end}}</li>
+              </ul>
+            </li>
+         {{/each}}
         </ul>
-        {{/each}}
 
         <h4>Friends</h4>
         <img class="overview-friends" src="../../images/avatar2.png" alt="avatar">
@@ -60,7 +64,6 @@
     <!-- JavaScript info -->
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
-    <script src="../../js/tasks.js"></script>
 
 </body>
 </html>

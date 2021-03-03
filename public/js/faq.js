@@ -13,3 +13,16 @@ for (j = 0; j < q.length; j++) {
     }
   });
  }
+
+ for (j = 0; j < q.length; j++) {
+    q[j].addEventListener("click", function() {
+        this.classList.toggle("active2");
+    var answer = this.nextElementSibling;
+    if(answer.style.maxHeight) {
+        answer.style.maxHeight = null; 
+     }
+    else {
+        answer.style.maxHeight = answer.scrollHeight + "px";
+    }
+  });
+ }
