@@ -417,3 +417,43 @@ ul li.check {
   color: black;
   padding: 20px;
 }
+
+/* ---------------------- STYLING FOR SETTINGS BUTTON ------------------- */ 
+#icon {
+  padding-left: 150px;
+  color: darkgray;
+}
+
+/* ---------------------- STYLING FOR FAQ/SETTINGS ------------------- */ 
+.faq {
+  padding: 18px;
+  width: 100%;
+  cursor: pointer;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active, .faq:hover {
+  background-color: lightgray;
+}
+
+.answer {
+  padding: 18px;
+  max-height: 0;
+  display: none;
+  overflow: hidden;
+}
+
+.faq:after {
+  content: '\02795';
+  font-size: 14px;
+  color: black;
+  float: right;
+  margin-left: 5px
+}
+
+.active2:after {
+  content: '\2796';
+}

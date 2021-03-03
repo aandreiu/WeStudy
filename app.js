@@ -20,6 +20,7 @@ var groupprofile = require('./routes/groupprofile');
 var add = require('./routes/add');
 var addfuture = require('./routes/addfuture');
 var addbreak = require('./routes/addbreak');
+var settings = require('./routes/settings');
 
 // Example route
 // var user = require('./routes/user');
@@ -66,6 +67,7 @@ app.get('/addbreak', addbreak.addBreak);
 app.get('/hometasks', index.viewTasks);
 app.get('/homefuturetasks', index.viewFutureTasks);
 app.get('/homebreaks', index.viewBreaks);
+app.get('/settings', settings.view);
 
 // Example route
 // app.get('/users', user.list);

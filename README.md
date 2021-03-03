@@ -12,6 +12,7 @@ Search/Filter script help: https://www.w3schools.com/howto/howto_js_filter_lists
 Timer scipt help: https://css-tricks.com/how-to-create-an-animated-countdown-timer-with-html-css-and-javascript/
 Icon help: https://www.w3schools.com/icons/
 Navigation bar script help: https://www.w3schools.com/howto/howto_js_topnav.asp 
+Accordian Menu Help: https://www.w3schools.com/howto/howto_js_accordion.asp 
 
 Image citations:
 Yellow star: https://www.mariowiki.com/Super_Star
