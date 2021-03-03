@@ -62,8 +62,10 @@ app.get('/profile', profile.view);
 app.get('/groupprofile', groupprofile.view);
 app.get('/add', add.addTask);
 app.get('/addfuture', addfuture.addFutureTask);
-app.get('/hometasks', index.viewTasks);
 app.get('/addbreak', addbreak.addBreak);
+app.get('/hometasks', index.viewTasks);
+app.get('/homefuturetasks', index.viewFutureTasks);
+app.get('/homebreaks', index.viewBreaks);
 
 // Example route
 // app.get('/users', user.list);

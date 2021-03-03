@@ -28,3 +28,13 @@ exports.viewTasks = function(req, res){
 	console.log(taskData);
   	res.render('index', taskData);
 }
+
+exports.viewFutureTasks = function(req, res){
+	console.log(futureTaskData);
+  	res.render('index', futureTaskData);
+}
+
+exports.viewBreaks = function(req, res){
+	console.log(breakData);
+  	res.render('index', breakData);
+}

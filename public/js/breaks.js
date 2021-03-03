@@ -1,5 +1,9 @@
-const TIME_LIMIT = 900;
-const DASH_ARRAY = 283;
+$(document).ready(function() {
+  $('.startTimer').click(startTimer());
+})
+
+let TIME_LIMIT = 900;
+let DASH_ARRAY = 283;
 let timePassed = 0;
 let timeLeft = TIME_LIMIT;
 let timerInterval = null;
@@ -33,7 +37,6 @@ document.getElementById("timer").innerHTML = `
 function formatTime(time) {
   const min = Math.floor(time / 60);
   let sec = time % 60;
-
   if (sec < 10) {
     sec = `0${sec}`;
   }
@@ -64,6 +67,16 @@ function casharray() {
   document
     .getElementById("path-remaining")
     .setAttribute("stroke-dasharray", circleDasharray);
+}
+
+//Reset timer
+function resetTimer() {
+  timePassed = 0;
+}
+
+//Pause timer
+function pauseTimer() {
+  timerInterval = null;
 }
 
 // Add X button on each task

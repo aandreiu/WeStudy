@@ -18,21 +18,19 @@
     </div>
 
     <div class="overview main">
-        <h4>Today</h4>
-        <ul id="task-list">
-            {{#each tasks}}
-            <li><p>{{taskName}}</p></li>
-            {{/each}}
-        </ul>
-
         <h4>This Week</h4>
+        {{#each futuretasks}}
         <ul id="task-list">
-            {{#each futuretasks}}
             <li><p>{{taskName}}</p></li>
-            {{/each}}
         </ul>
+        {{/each}}
 
         <h4>Scheduled Breaks</h4>
+        {{#each breaks}}
+        <ul class="task-list">
+            <li>{{what}}, {{start}} - {{end}}</li>
+        </ul>
+        {{/each}}
 
         <h4>Friends</h4>
         <img class="overview-friends" src="../../images/avatar2.png" alt="avatar">
