@@ -33,7 +33,7 @@
                 <input type="text" class="field" id="task" name="task" placeholder="Enter Task" required><br><br>
 
                 <label for="duedate">Finish By:</label>
-                <input type="date" class="field" id="duedate" name="duedate" value="<?php echo date('Y-m-d') ?>" required><br><br>
+                <input type="text" class="field" id="duedate" name="duedate" placeholder="MM/DD" required><br><br>
 
                 <span><b>Public?</b></span>
                 <input id="yes" type="radio" name="privacy" value="yes" required>
@@ -41,13 +41,18 @@
                 <input id="no" type="radio" name="privacy" value="no" required> 
                 <label for="no">No</label><br><br>
 
-                <input type="submit" id="submitBtn" class="addBtn" value="Add"></input>
+                <input type="submit" id="submitBtn" class="addBtn" value="Add" onclick="confirmAdd()"></input>
+                <script>
+                     function confirmAdd() {
+                         confirm("New Task Has Been Added!");
+                    }
+                </script>
             </form>
         </div>
 
         <ul id="task-list">
             {{#each futuretasks}}
-            <li><p>{{taskName}}</p></li>
+            <li><p>{{taskName}}, {{duedate}}</p></li>
             {{/each}}
         </ul>
     </div>

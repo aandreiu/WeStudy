@@ -1,13 +1,20 @@
 {
 	"futuretasks": [
 		{
-			"taskName": "Register for classes"
+			"taskName": "Register for classes",
+			"duedate": "03/10"
 		},
 		{
-			"taskName": "CSE Midterm"
+			"taskName": "CSE Midterm",
+			"duedate": "03/10"
 		},
 		{
-			"taskName": "Laundry"
+			"taskName": "COGS 101B Discussion",
+			"duedate": "03/11"
+		},
+		{
+			"taskName": "Laundry",
+			"duedate": "03/12"
 		}
 	]
 }
