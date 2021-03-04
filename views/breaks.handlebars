@@ -42,7 +42,13 @@
             <label for="endtime"> to </label>
             <input type="time" class="field" id="endtime" name="endtime" required> <br><br>
 
-            <center><input type="submit" id="submitBtn" class="addBtn" value="Add"></input></center><br><br>
+            <center><input type="submit" id="submitBtn" class="addBtn" value="Add" onclick="confirmAdd()"></input></center><br><br>
+            <script>
+                function confirmAdd() {
+                    confirm("New Break Scheduled!");
+                    }
+            </script>
+
         </form>
     </div>
 
