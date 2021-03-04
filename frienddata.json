@@ -12,21 +12,21 @@
 			"name": "Alexandra",
 			"task": "Search bar",
 			"total_task": "2",
-			"complete_task": "2"
+			"complete_task": "2"	
 		},
 		{
 			"id": "3",
 			"name": "Vivian",
 			"task": "JSON data",
 			"total_task": "7",
-			"complete_task": "6"	
+			"complete_task": "6"		
 		},
 		{
 			"id": "4",
 			"name": "Jane",
 			"task": "plastics wireframe",
 			"total_task": "10",
-			"complete_task": "4"	
+			"complete_task": "4"		
 		},
 		{
 			"id": "5",

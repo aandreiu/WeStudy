@@ -10,16 +10,10 @@ var handlebars = require('express3-handlebars')
 
 var index = require('./routes/index');
 var tasks = require('./routes/tasks');
-var futuretasks = require('./routes/futuretasks');
-var friends = require('./routes/friends');
+var people = require('./routes/people');
 var awards = require('./routes/awards');
-var groups = require('./routes/groups');
 var breaks = require('./routes/breaks');
 var profile = require('./routes/profile');
-var groupprofile = require('./routes/groupprofile');
-var add = require('./routes/add');
-var addfuture = require('./routes/addfuture');
-var addbreak = require('./routes/addbreak');
 var settings = require('./routes/settings');
 var faq = require('./routes/faqs');
 
@@ -47,21 +41,21 @@ if ('development' == app.get('env')) {
 
 app.get('/', index.viewLogin);
 app.get('/index', index.view);
-app.get('/tasks', tasks.view);
-app.get('/futuretasks', futuretasks.view);
+app.get('/tasks', tasks.viewTasks);
+app.get('/futuretasks', tasks.viewFutureTasks);
 app.get('/awards', awards.view);
 app.get('/friend-awards', awards.viewFriends);
 app.get('/group-awards', awards.viewGroups);
 app.get('/login', index.viewLogin);
 app.get('/signup', index.viewSignUp);
-app.get('/friends', friends.view);
-app.get('/groups', groups.view);
+app.get('/friends', people.viewFriends);
+app.get('/groups', people.viewGroup);
 app.get('/breaks', breaks.view);
 app.get('/profile', profile.view);
-app.get('/groupprofile', groupprofile.view);
-app.get('/add', add.addTask);
-app.get('/addfuture', addfuture.addFutureTask);
-app.get('/addbreak', addbreak.addBreak);
+app.get('/groupprofile', profile.viewGroup);
+app.get('/add', tasks.addTask);
+app.get('/addfuture', tasks.addFutureTask);
+app.get('/addbreak', breaks.addBreak);
 app.get('/settings', settings.view);
 app.get('/faq/:id', faq.faqInfo);
 
