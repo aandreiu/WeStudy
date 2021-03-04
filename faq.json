@@ -1,13 +1,14 @@
 [
 	{
 		"id": 1,
-		"question": "What is WeStudy?",
-		"answer":"WeStudy is a collective accountability platform that motivates users to being more productive and focused by allowing them to share their task progress to friends, as well as also seeing their friend's progress."
+		"question": "What is WeStudy used for?",
+		"answer": "WeStudy can be used as a productivity app or a social app. We made sure to provide users with the time management and task tracking capabilities, while also making sure to include a social platform to connect users with friends."
+
 	},
 	{
 		"id": 2,
 		"question": "Is WeStudy free?",
-		"answer": "Yes, WeStudy is completely free!"
+		"answer": "Yes, WeStudy is a completely free application. All features are available to users at no cost."
 	},
 	{
 		"id": 3,
@@ -18,5 +19,20 @@
 		"id": 4,
 		"question": "How can I check my friends' progress?",
 		"answer": "By going to the friend's page and clicking on their profile, you can see a progress bar with their task completition progress for the day. So if you see that your friend has only finished 1 of their 7 tasks for the day, and its already 6pm.. message them to do their work!!"
+	},
+	{
+		"id": 5,
+		"question": "How can I see my future tasks for the week?",
+		"answer": "At the top of the tasks page, the WeStudy application allows you to filter between your current tasks and your tasks for the week ahead. Just go ahead and add your tasks, and the WeStudy app will automatically filter them for you."
+	},
+	{
+		"id": 6,
+		"question": "How can I earn awards?",
+		"answer": "You can earn awards in a multitude of ways! Just make sure you are logging your tasks, taking study breaks, and utilizing all the WeStudy functionalities so that you can earn awards."
+	},
+	{
+		"id": 7,
+		"question": "How can I schedule a break?",
+		"answer": "In the breaks page, you have the ability to schedule breaks at any time of the day! Through WeStudy, once you join a Study Group, you are also able to schedule breaks with my group mates as well."
 	}
 ]

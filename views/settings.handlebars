@@ -19,16 +19,16 @@
          <div class="head">
             <h1>Settings<a href="/login"><i id= "icon" class="fas fa-sign-out-alt"></i></a></h1>
          </div>  
-    </div>
 
-    {{#each faq}}
-    <div class="faq" id="{{id}}">
-        <a href="#">
-            <p>{{question}}</p>
-        </a>
-        <div class="details"></div>
+        {{#each faq}}
+        <div class="faq" id="{{id}}">
+            <a href="#">
+                <p>{{question}}</p>
+            </a>
+            <div class="details"></div>
+        </div>
+        {{/each}}
     </div>
-    {{/each}}
 
      <!-- Navigation bar -->
     {{>navbar}}
