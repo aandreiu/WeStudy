@@ -22,9 +22,6 @@ var addfuture = require('./routes/addfuture');
 var addbreak = require('./routes/addbreak');
 var settings = require('./routes/settings');
 
-// Example route
-// var user = require('./routes/user');
-
 var app = express();
 
 // all environments
@@ -51,12 +48,12 @@ app.get('/', index.viewLogin);
 app.get('/index', index.view);
 app.get('/tasks', tasks.view);
 app.get('/futuretasks', futuretasks.view);
-app.get('/friends', friends.view);
 app.get('/awards', awards.view);
 app.get('/friend-awards', awards.viewFriends);
 app.get('/group-awards', awards.viewGroups);
 app.get('/login', index.viewLogin);
 app.get('/signup', index.viewSignUp);
+app.get('/friends', friends.view);
 app.get('/groups', groups.view);
 app.get('/breaks', breaks.view);
 app.get('/profile', profile.view);
@@ -64,13 +61,7 @@ app.get('/groupprofile', groupprofile.view);
 app.get('/add', add.addTask);
 app.get('/addfuture', addfuture.addFutureTask);
 app.get('/addbreak', addbreak.addBreak);
-app.get('/hometasks', index.viewTasks);
-app.get('/homefuturetasks', index.viewFutureTasks);
-app.get('/homebreaks', index.viewBreaks);
 app.get('/settings', settings.view);
-
-// Example route
-// app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
