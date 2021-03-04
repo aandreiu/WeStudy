@@ -3,32 +3,32 @@
 		{
 			"id": "1",
 			"name": "COGS120",
-			"participants": "22",		
+			"participants": "22"		
 		},
 		{
 			"id": "2",
 			"name": "COGS101B",
-			"participants": "4",	
+			"participants": "4"	
 		},
 		{
 			"id": "3",
 			"name": "CSE11",
-			"participants": "24",		
+			"participants": "24"		
 		},
 		{
 			"id": "4",
 			"name": "CSE100",
-			"participants": "12",	
+			"participants": "12"	
 		},
 		{
 			"id": "5",
 			"name": "COGS121",
-			"participants": "34",
+			"participants": "34"
 		},
 		{
 			"id": "6",
 			"name": "COGS187A",
-			"participants": "10",
+			"participants": "10"
 		}
 	]
 }

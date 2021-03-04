@@ -18,6 +18,27 @@
   <div class="center">
     <center>
       <h1>WeStudy</h1>
+       <script>
+       window.fbAsyncInit = function() {
+         FB.init({
+           appId      : '476486023698785',
+           cookie     : true,
+           xfbml      : true,
+           version    : 'v9.0'
+         });
+      
+         FB.AppEvents.logPageView();   
+      
+       };
+
+       (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "https://connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+     </script> 
       <div class="curved-box">
         <form>
           <label for="email"><b>Email:</b></label>
