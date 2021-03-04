@@ -3,38 +3,32 @@
 		{
 			"id": "1",
 			"name": "COGS120",
-			"participants": "22",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
+			"participants": "22",		
 		},
 		{
 			"id": "2",
 			"name": "COGS101B",
-			"participants": "4",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/5/5c/Ivan_Sutherland_at_CHM.jpg"			
+			"participants": "4",	
 		},
 		{
 			"id": "3",
 			"name": "CSE11",
-			"participants": "24",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/d/df/Lucy_Suchman.jpeg"			
+			"participants": "24",		
 		},
 		{
 			"id": "4",
 			"name": "CSE100",
-			"participants": "12",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/e/ea/Vannevar_Bush_portrait.jpg"			
+			"participants": "12",	
 		},
 		{
 			"id": "5",
 			"name": "COGS121",
 			"participants": "34",
-			"imageURL": "http://amhistory.si.edu/ogmt/images/upload/women-mathematicians/AHB2012q06025.jpg"
 		},
 		{
 			"id": "6",
 			"name": "COGS187A",
 			"participants": "10",
-			"imageURL": "http://uploads.edubilla.com/awards-winners/92/b4/allen-newell.jpg"
 		}
 	]
 }

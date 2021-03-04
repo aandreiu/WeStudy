@@ -1,29 +1,52 @@
 {
 	"awards": [
 		{
-			"name": "New Friend!",
-			"dateEarned": "MM/DD",
-			"description": "Sign up for WeStudy"	
+			"workaholic": [
+				{
+					"date": "",
+					"description": "Make 1 task"
+				},
+				{
+					"date": "",
+					"description": "Make 5 tasks"
+				}
+			]
 		},
 		{
-			"name": "Let's Get to Work!",
-			"dateEarned": "MM/DD",
-			"description": "Make 1 Task"	
+			"friends": [
+				{
+					"date": "",
+					"description": "Make 1 friend"
+				},
+				{
+					"date": "",
+					"description": "Make 5 friends"
+				}
+			]
 		},
 		{
-			"name": "I'm Not Alone!",
-			"dateEarned": "MM/DD",
-			"description": "Make 1 friend"	
+			"partytime": [
+				{
+					"date": "",
+					"description": "Join 1 group"
+				},
+				{
+					"date": "",
+					"description": "Join 5 groups"
+				}
+			]
 		},
 		{
-			"name": "Workaholic",
-			"dateEarned": "MM/DD",
-			"description": "Make 5 Tasks"	
-		},
-		{
-			"name": "Party Time",
-			"dateEarned": "MM/DD",
-			"description": "Join a Group on WeStudy"	
+			"teamleader": [
+				{
+					"date": "",
+					"description": "Make a group"
+				},
+				{
+					"date": "",
+					"description": "Make 5 groups"
+				}
+			]
 		}
 	]
 }
