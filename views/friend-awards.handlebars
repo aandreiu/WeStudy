@@ -33,10 +33,9 @@
             <h3><img class="avatar" src="../../images/avatar.jpeg" alt="avatar">
               Jane</h3>
 
-            <p><img class="award" src="../../images/yellow-star.png" alt="earned award">Name of Award<br>Date Earned<br>Description</p><br> 
-            <p><img class="award" src="../../images/yellow-star.png" alt="earned award">Name of Award<br>Date Earned<br>Description</p><br>
-            <p><img class="award" src="../../images/yellow-star.png" alt="earned award">Name of Award<br>Date Earned<br>Description</p><br>
-            <p><img class="award" src="../../images/yellow-star.png" alt="earned award">Name of Award<br>Date Earned<br>Description</p><br>
+        {{#each friend1}}
+            <p><img class="award" src="../../images/yellow-star.png" alt="earned award"><b>{{name}}</b><br><i>Earned on: {{date}}</i><br>{{description}}</p><br>
+        {{/each}}
         </div><br>
 
         <!-- Friend 2 --> 
@@ -44,8 +43,9 @@
             <h3><img class="avatar" src="../../images/avatar.jpeg" alt="avatar">
               John</h3>
 
-            <p><img class="award" src="../../images/yellow-star.png" alt="earned award">Name of Award<br>Date Earned<br>Description</p><br>
-            <p><img class="award" src="../../images/yellow-star.png" alt="earned award">Name of Award<br>Date Earned<br>Description</p><br>
+        {{#each friend2}}
+            <p><img class="award" src="../../images/yellow-star.png" alt="earned award"><b>{{name}}</b><br><i>Earned on: {{date}}</i><br>{{description}}</p><br>
+        {{/each}}
         </div><br>
 
         <!-- Friend 3 -->
@@ -53,9 +53,9 @@
             <h3><img class="avatar" src="../../images/avatar.jpeg" alt="avatar">
               Alan</h3>
 
-            <p><img class="award" src="../../images/yellow-star.png" alt="earned award">Name of Award<br>Date Earned<br>Description</p><br>
-            <p><img class="award" src="../../images/yellow-star.png" alt="earned award">Name of Award<br>Date Earned<br>Description</p><br>
-            <p><img class="award" src="../../images/yellow-star.png" alt="earned award">Name of Award<br>Date Earned<br>Description</p><br>
+        {{#each friend3}}
+            <p><img class="award" src="../../images/yellow-star.png" alt="earned award"><b>{{name}}</b><br><i>Earned on: {{date}}</i><br>{{description}}</p><br>
+        {{/each}}
         </div>
     </div>
     

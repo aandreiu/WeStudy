@@ -1,0 +1,73 @@
+{
+	"friend1": [
+		{
+			"name": "Head Start",
+			"description": "Make 1 task",
+			"date": "03/01"
+		},
+		{
+			"name": "Workaholic",
+			"description": "Make 5 tasks",
+			"date": "03/01"
+		},
+		{
+			"name": "New Horizons",
+			"description": "Join WeStudy",
+			"date": "03/02"
+		}
+	],
+	"friend2": [
+		{
+			"name": "Head Start",
+			"description": "Make 1 task",
+			"date": "03/01"
+		},
+		{
+			"name": "Workaholic",
+			"description": "Make 5 tasks",
+			"date": "03/02"
+		},
+		{
+			"name": "New Horizons",
+			"description": "Join WeStudy",
+			"date": "03/03"
+		},
+		{
+			"name": "Study Group",
+			"description": "Join a study group",
+			"date": "03/05"
+		},
+		{
+			"name": "Socialite",
+			"description": "Make 20 Friends",
+			"date": "03/06"
+		},
+		{
+			"name": "Giesel Hours",
+			"description": "Join 5 study groups",
+			"date": "03/06"
+		}
+	],
+	"friend3": [
+		{
+			"name": "Head Start",
+			"description": "Make 1 task",
+			"date": "03/01"
+		},
+		{
+			"name": "Workaholic",
+			"description": "Make 5 tasks",
+			"date": "03/02"
+		},
+		{
+			"name": "New Horizons",
+			"description": "Join WeStudy",
+			"date": "03/03"
+		},
+		{
+			"name": "Study Group",
+			"description": "Join a study group",
+			"date": "03/05"
+		}
+	]
+}

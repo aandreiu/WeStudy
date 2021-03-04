@@ -1,0 +1,100 @@
+{
+	"group1earned": [
+		{
+			"name": "Head Start",
+			"description": "Have one member joined",
+			"date": "03/01"
+		},
+		{
+			"name": "Three's A Crowd",
+			"description": "Have three members joined",
+			"date": "03/01"
+		},
+		{
+			"name": "Social Bird",
+			"description": "Send invite code to someone new",
+			"date": "03/01"
+		},
+		{
+			"name": "Getting Started!",
+			"description": "Complete one group task",
+			"date": "03/02"
+		}
+	],
+	"group1unearned": [
+		{
+			"name": "Study Break",
+			"description": "Every member took a break today"
+		},
+		{
+			"name": "Nap Time",
+			"description": "Break time totaled to 3 hours today"
+		},
+		{
+			"name": "Group Project",
+			"description": "Complete five group tasks"
+		},
+		{
+			"name": "Getting Busy",
+			"description": "Complete 20 group tasks"
+		},
+		{
+			"name": "That's More Like It",
+			"description": "Have 50 members joined"
+		},
+		{
+			"name": "Lecture party!",
+			"description": "Have 100 memmbers joined"
+		}		
+	],
+	"group2earned": [
+		{
+			"name": "Head Start",
+			"description": "Have one member joined",
+			"date": "03/03"
+		},
+		{
+			"name": "Three's A Crowd",
+			"description": "Have three members joined",
+			"date": "03/04"
+		},
+		{
+			"name": "Social Bird",
+			"description": "Send invite code to someone new",
+			"date": "03/04"
+		},
+		{
+			"name": "Getting Started!",
+			"description": "Complete one group task",
+			"date": "03/04"
+		},
+		{
+			"name": "Group Project",
+			"description": "Complete five group tasks",
+			"date": "03/07"
+		},
+		{
+			"name": "Study Break",
+			"description": "Every member took a break today",
+			"date": "03/08"
+		}
+	],
+	"group2unearned": [
+		{
+			"name": "Nap Time",
+			"description": "Break time totaled to 3 hours today"
+		},
+		{
+			"name": "Getting Busy",
+			"description": "Complete 20 group tasks"
+		},
+		{
+			"name": "That's More Like It",
+			"description": "Have 50 members joined"
+		},
+		{
+			"name": "Lecture party!",
+			"description": "Have 100 memmbers joined"
+		}
+	]
+}
