@@ -22,7 +22,7 @@ function changeUser(response) {
     $(".facebookLogin").hide();
     $("#name").text(response.name);
     $("#photo").attr("src", response.picture.data.url);
-  var newLink = "profile/" + response.name;
-	console.log(newLink);
-	$("#profileLink").attr("href", newLink);
+  // var newLink = "profile/" + response.name;
+	// console.log(newLink);
+	// $("#profileLink").attr("href", newLink);
 }
