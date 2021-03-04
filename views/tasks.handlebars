@@ -41,7 +41,12 @@
                 <input id="no" type="radio" name="privacy" value="no" required> 
                 <label for="no">No</label><br><br>
 
-                <input type="submit" id="submitBtn" class="addBtn" value="Add"></input>
+                <input type="submit" id="submitBtn" class="addBtn" value="Add" onclick="confirmAdd()"></input>
+                <script>
+                     function confirmAdd() {
+                         confirm("New Task Has Been Added!");
+                    }
+                </script>
             </form>
         </div><br>
 
