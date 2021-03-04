@@ -25,10 +25,10 @@ input {
 
 .curved-box {
 	padding-left: 100px;
-	border-radius: 30px;
+	border-radius: 20px;
 	border: 2px solid #add8e6;
 	padding: 20px;
-	width: 350px;
+	width: 300px;
 	height: 160px;
 }
 
