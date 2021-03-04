@@ -18,30 +18,14 @@
     </div>
 
     <div class="overview main">
-        <h4>Today</h4>
-         <ul id="task-list">
-        {{#each tasks}}
-            <li><p>{{taskName}}</p></li>
-        {{/each}}
-        </ul>
+        <h4 onclick="">Today</h4>
+        <ul id="task-list"></ul>
 
-        <h4>This Week</h4>
-         <ul id="task-list">
-        {{#each futuretasks}}
-            <li><p>{{taskName}}</p></li>
-        {{/each}}
-        </ul>
+        <h4 onclick="">This Week</h4>
+        <ul id="task-list"></ul>
 
-        <h4>Scheduled Breaks</h4>
-        <ul id="breaks">
-         {{#each breaks}}
-            <li>
-              <ul class="task-list">
-                 <li>{{what}}, {{start}} - {{end}}</li>
-              </ul>
-            </li>
-         {{/each}}
-        </ul>
+        <h4 onclick="">Scheduled Breaks</h4>
+        <ul id="breaks"></ul>
 
         <h4>Friends</h4>
         <img class="overview-friends" src="../../images/avatar2.png" alt="avatar">
@@ -64,6 +48,7 @@
     <!-- JavaScript info -->
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/tasks.js"></script>
 
 </body>
 </html>
