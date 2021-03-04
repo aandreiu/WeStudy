@@ -18,6 +18,13 @@
     </div>
 
     <div class="overview main">
+        <h4>Today</h4>
+         <ul id="task-list">
+        {{#each tasks}}
+            <li><p>{{taskName}}</p></li>
+        {{/each}}
+        </ul>
+
         <h4>This Week</h4>
          <ul id="task-list">
         {{#each futuretasks}}

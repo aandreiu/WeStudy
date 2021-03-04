@@ -20,8 +20,8 @@
     <div class="breaks main">    
         <!-- Timer --> 
         <center><div class="timer-style" id="timer"></div><br>
-        <span class="addBtn">Start Next Break</span>
-        <span onclick="resetTimer()" class="addBtn resetTimer">Reset</span></center>
+        <span onclick="startTimer()" class="addBtn">Start</span>
+        <span onclick="rstartTimer()" class="addBtn">Reset</span></center>
 
         <!-- List of breaks scheduled --> 
         <h4>Scheduled Today</h4>
@@ -39,7 +39,7 @@
 
             <label for="starttime">Time:</label>
             <input type="time" class="field" id="starttime" name="starttime" required>
-            <label for="endtime"> to </label>
+            <label for="endtime"> - </label>
             <input type="time" class="field" id="endtime" name="endtime" required> <br><br>
 
             <center><input type="submit" id="submitBtn" class="addBtn" value="Add" onclick="confirmAdd()"></input></center><br><br>

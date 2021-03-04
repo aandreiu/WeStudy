@@ -1,7 +1,3 @@
-$(document).ready(function() {
-  $('.startTimer').click(startTimer());
-})
-
 let TIME_LIMIT = 900;
 let DASH_ARRAY = 283;
 let timePassed = 0;
@@ -70,8 +66,8 @@ function casharray() {
 }
 
 //Reset timer
-function resetTimer() {
-  timePassed = 0;
+function restartTimer() {
+  timePassed = -1;
 }
 
 //Pause timer
@@ -102,4 +98,3 @@ for (i = 0; i < x.length; i++) {
     }
   }
 }
-
