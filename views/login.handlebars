@@ -15,6 +15,8 @@
 </head>
 
 <body style="background-color: #f1f4f9">
+  <div id="fb-root"></div>
+   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0&appId=4159011474122702&autoLogAppEvents=1" nonce="xT91vBx4"></script>
   <div class="center">
     <center>
       <h1>WeStudy</h1>
@@ -49,6 +51,7 @@
         	<p class="facebookLogin">
 			       <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
 			       </fb:login-button>
+             <div class="fb-login-button" data-width="" data-size="small" data-button-type="login_with" data-layout="rounded" data-auto-logout-link="false" data-use-continue-as="false"></div>
 			   </p>
         </form><br>
       </div>
