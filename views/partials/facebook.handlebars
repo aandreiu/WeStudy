@@ -1,11 +1,15 @@
+
 <script>
   window.fbAsyncInit = function() {
     FB.init({
       appId      : '476486023698785',
+      cookie     : true,
       xfbml      : true,
-      version    : 'v10.0'
+      version    : 'v3.2'
     });
-    FB.AppEvents.logPageView();
+      
+    FB.AppEvents.logPageView();   
+      
   };
 
   (function(d, s, id){
@@ -16,3 +20,4 @@
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
 </script>
+ 

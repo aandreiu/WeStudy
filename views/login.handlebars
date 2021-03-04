@@ -8,8 +8,10 @@
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="/css/login-signin.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
     {{> facebook}}
-    <script src="/facebook.js"></script>
+    <script src="../js/facebook.js"></script>
 </head>
 
 <body style="background-color: #f1f4f9">
@@ -26,9 +28,10 @@
 
           <input type="checkbox" name="remember" id="remember" value="remember">
           <label for="remember">Remember Me</label>
-          <p class="facebookLogin">
-          <fb:login-button scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button><br>
-          </p>
+        	<p class="facebookLogin">
+			       <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+			       </fb:login-button>
+			   </p>
         </form><br>
       </div>
 
@@ -36,6 +39,5 @@
       <br><br><a href="/signup"><Button>Sign Up</Button></a>
   </center>
 </div>
-
 </body>
 </html>
