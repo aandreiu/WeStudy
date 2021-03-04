@@ -1,52 +1,29 @@
 {
 	"awards": [
 		{
-			"workaholic": [
-				{
-					"date": "",
-					"description": "Make 1 task"
-				},
-				{
-					"date": "",
-					"description": "Make 5 tasks"
-				}
-			]
+			"name": "Head Start",
+			"description": "Make 1 task",
+			"date": "03/01"
 		},
 		{
-			"friends": [
-				{
-					"date": "",
-					"description": "Make 1 friend"
-				},
-				{
-					"date": "",
-					"description": "Make 5 friends"
-				}
-			]
+			"name": "Workaholic",
+			"description": "Make 5 tasks",
+			"date": "03/01"
 		},
 		{
-			"partytime": [
-				{
-					"date": "",
-					"description": "Join 1 group"
-				},
-				{
-					"date": "",
-					"description": "Join 5 groups"
-				}
-			]
+			"name": "New Horizons",
+			"description": "Join WeStudy",
+			"date": "03/01",
 		},
 		{
-			"teamleader": [
-				{
-					"date": "",
-					"description": "Make a group"
-				},
-				{
-					"date": "",
-					"description": "Make 5 groups"
-				}
-			]
+			"name": "Two's Company",
+			"description": "View Friend's page",
+			"date": "03/01",
+		},
+		{
+			"name": "Three's a Crowd",
+			"description": "View Group's page",
+			"date": "03/01",
 		}
 	]
 }
