@@ -442,7 +442,7 @@ ul li.check {
   background-color: lightgray;
 }
 
-.answer {
+.project .details {
   padding: 18px;
   max-height: 0;
   display: none;

@@ -1,0 +1,22 @@
+[
+	{
+		"id": 1,
+		"question": "What is WeStudy?",
+		"answer":"WeStudy is a collective accountability platform that motivates users to being more productive and focused by allowing them to share their task progress to friends, as well as also seeing their friend's progress."
+	},
+	{
+		"id": 2,
+		"question": "Is WeStudy free?",
+		"answer": "Yes, WeStudy is completely free!"
+	},
+	{
+		"id": 3,
+		"question": "What can I do with WeStudy?",
+		"answer": "On WeStudy, you can keep track of tasks for the day and the upcoming week, join study groups for classes you're currently taking, and keep yourself and your friends accountable. WeStudy also helps users become more productive and use their time more efficiently by encouraging users to take productive breaks throughout the day. We all get burnt out working all day, it's important to remember to take a break! WeStudy also increases motivation through incentivization of awards. Users can gain their own personal awards, as well as working together in their study groups to achieve group awards!"
+	},
+	{
+		"id": 4,
+		"question": "How can I check my friends' progress?",
+		"answer": "By going to the friend's page and clicking on their profile, you can see a progress bar with their task completition progress for the day. So if you see that your friend has only finished 1 of their 7 tasks for the day, and its already 6pm.. message them to do their work!!"
+	}
+]

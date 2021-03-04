@@ -21,6 +21,7 @@ var add = require('./routes/add');
 var addfuture = require('./routes/addfuture');
 var addbreak = require('./routes/addbreak');
 var settings = require('./routes/settings');
+var faq = require('./routes/faqs');
 
 var app = express();
 
@@ -62,6 +63,7 @@ app.get('/add', add.addTask);
 app.get('/addfuture', addfuture.addFutureTask);
 app.get('/addbreak', addbreak.addBreak);
 app.get('/settings', settings.view);
+app.get('/faq/:id', faq.faqInfo);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
