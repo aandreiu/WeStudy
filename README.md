@@ -13,6 +13,9 @@ Timer scipt help: https://css-tricks.com/how-to-create-an-animated-countdown-tim
 Icon help: https://www.w3schools.com/icons/
 Navigation bar script help: https://www.w3schools.com/howto/howto_js_topnav.asp 
 Accordian Menu Help: https://www.w3schools.com/howto/howto_js_accordion.asp 
+Facebook login Help: https://developers.facebook.com/docs/facebook-login/web/ 
+Confirmation Message Help: https://www.w3schools.com/jsref/met_win_confirm.asp 
+Pop-up Message Help: https://www.w3schools.com/js/js_popup.asp 
 
 Image citations:
 Yellow star: https://www.mariowiki.com/Super_Star
