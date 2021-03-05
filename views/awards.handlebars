@@ -29,12 +29,17 @@
         </div><br><br>
 
         <!-- Individual awards -->
-        {{#each awards}}
         <div class="indiv-awards">
-            <p><img class="award" src="../../images/yellow-star.png" alt="earned award">
-            <b>{{name}}</b><br><i>Earned on: {{date}}</i><br>{{description}}</p><br>
+            {{#each awards}}
+                <p><img class="award" src="../../images/yellow-star.png" alt="earned award">
+                <b>{{name}}</b><br><i>Earned on: {{date}}</i><br>{{description}}</p><br>
+            {{/each}}
+
+            {{#each unearnedawards}}
+                <p><img class="award" src="../../images/gray-star.png" alt="earned award">
+                <b>{{name}}</b><br>{{description}}</p><br>
+            {{/each}}            
         </div>
-        {{/each}}
     </div>
 
     <!-- Navigation bar -->

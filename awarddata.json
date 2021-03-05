@@ -2,12 +2,12 @@
 	"awards": [
 		{
 			"name": "Head Start",
-			"description": "Make 1 task",
+			"description": "Finish 1 task",
 			"date": "03/01"
 		},
 		{
 			"name": "Workaholic",
-			"description": "Make 5 tasks",
+			"description": "Finish 5 tasks",
 			"date": "03/01"
 		},
 		{
@@ -25,5 +25,27 @@
 			"description": "View Group's page",
 			"date": "03/01"
 		}
+	],
+	"unearnedawards": [
+		{
+			"name": "Socialite",
+			"description": "Make 10 friends"
+		},
+		{
+			"name": "Class Party",
+			"description": "Make 30 friends"
+		},
+		{
+			"name": "Mental Health",
+			"description": "Take 3 breaks in one day"
+		},
+		{
+			"name": "Scholar",
+			"description": "Join 10 study groups"
+		},
+		{
+			"name": "Teamwork Makes The Dreamwork",
+			"description": "Finish a group task"
+		}		
 	]
 }
