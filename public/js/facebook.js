@@ -20,5 +20,5 @@ function statusChangeCallback(response) {
 
 function changeUser(response) {
     $("h1#name").text(response.name);
-    $("img#profile-avatar").attr("src", response.picture.data.url);
+    $("img#photo").attr("src", response.picture.data.url);
 }
