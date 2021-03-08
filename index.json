@@ -1,0 +1,51 @@
+{
+	"groups": [
+		{
+			"image": "../../images/cogs187.jpg"
+		},
+		{
+			"image": "../../images/cogs120.png"
+		},
+		{
+			"image": "../../images/cogs101b.jpg"
+		},
+		{
+			"image": "../../images/cse11.jpg"
+		},
+		{
+			"image": "../../images/cogs121.jpg"
+		},
+		{
+			"image": "../../images/cse100.jpg"
+		},
+		{
+			"image": "../../images/dsgn1.jpg"
+		}		
+	],
+	"friends": [
+		{
+			"image": "../../images/catherine.jpg"
+		},
+		{
+			"image": "../../images/alex.jpg"
+		},
+		{
+			"image": "../../images/alan.jpg"
+		},
+		{
+			"image": "../../images/vivian.jpg"
+		},
+		{
+			"image": "../../images/jane.jpg"
+		},
+		{
+			"image": "../../images/sarah.jpg"
+		},
+		{
+			"image": "../../images/michael.jpg"
+		},
+		{
+			"image": "../../images/john.jpg"
+		}		
+	]
+}

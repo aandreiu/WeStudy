@@ -1,9 +1,11 @@
+var data = require('../index.json');
 /*
  * GET home page.
  */
 
 exports.view = function(req, res){
-  	res.render('index');
+	console.log(data);
+  	res.render('index', data);
  };
 
  /*

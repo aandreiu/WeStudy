@@ -3,13 +3,16 @@
 		{
 			"id": "1",
 			"name": "Catherine",
+			"image": "../../images/catherine.jpg",
 			"task": "Home page",
 			"total_task": "10",
-			"complete_task": "4"		
+			"complete_task": "4"	
+
 		},
 		{
 			"id": "2",
 			"name": "Alexandra",
+			"image": "../../images/alex.jpg",
 			"task": "Search bar",
 			"total_task": "2",
 			"complete_task": "2"	
@@ -17,6 +20,7 @@
 		{
 			"id": "3",
 			"name": "Vivian",
+			"image": "../../images/vivian.jpg",
 			"task": "JSON data",
 			"total_task": "7",
 			"complete_task": "6"		
@@ -24,13 +28,15 @@
 		{
 			"id": "4",
 			"name": "Jane",
-			"task": "plastics wireframe",
+			"image": "../../images/jane.jpg",
+			"task": "Plastics Wireframe",
 			"total_task": "10",
 			"complete_task": "4"		
 		},
 		{
 			"id": "5",
 			"name": "John",
+			"image": "../../images/john.jpg",
 			"task": "COGS 120 homework",
 			"total_task": "15",
 			"complete_task": "5"
@@ -38,8 +44,25 @@
 		{
 			"id": "6",
 			"name": "Alan",
+			"image": "../../images/alan.jpg",
 			"task": "Lecture",
 			"total_task": "8",
+			"complete_task": "3"
+		},
+		{
+			"id": "7",
+			"name": "Sarah",
+			"image": "../../images/sarah.jpg",
+			"task": "CSE Program",
+			"total_task": "10",
+			"complete_task": "8"
+		},
+		{
+			"id": "8",
+			"name": "Michael",
+			"image": "../../images/michael.jpg",
+			"task": "Discussion and Reading",
+			"total_task": "5",
 			"complete_task": "3"
 		}
 	]

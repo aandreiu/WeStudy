@@ -43,18 +43,14 @@
         </ul>
  
         <h4>Friends</h4>
-        <img class="overview-friends" src="../../images/avatar2.png" alt="avatar">
-        <img class="overview-friends" src="../../images/avatar2.png" alt="avatar">
-        <img class="overview-friends" src="../../images/avatar2.png" alt="avatar">
-        <img class="overview-friends" src="../../images/avatar2.png" alt="avatar">
-        <img class="overview-friends" src="../../images/avatar2.png" alt="avatar"><br>
+        {{#each friends}}
+            <img class="overview-friends" src="{{image}}" alt="avatar">
+        {{/each}}<br>
 
         <h4>Groups</h4>
-        <img class="overview-friends" src="../../images/avatar2.png" alt="avatar">
-        <img class="overview-friends" src="../../images/avatar2.png" alt="avatar">
-        <img class="overview-friends" src="../../images/avatar2.png" alt="avatar">
-        <img class="overview-friends" src="../../images/avatar2.png" alt="avatar">
-        <img class="overview-friends" src="../../images/avatar2.png" alt="avatar"><br><br>
+        {{#each groups}}
+            <img class="overview-friends" src="{{image}}" alt="avatar">
+        {{/each}}<br><br>
     </div>
 
     <!-- Navigation bar -->

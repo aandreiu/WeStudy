@@ -1,35 +1,47 @@
 {
-	"numGroups": "6",
+	"numGroups": "7",
 	"groups": [
 		{
 			"id": "1",
 			"name": "COGS120",
-			"participants": "22"		
+			"participants": "22",
+			"image": "../../images/cogs120.png"	
 		},
 		{
 			"id": "2",
 			"name": "COGS101B",
-			"participants": "4"	
+			"participants": "4",
+			"image": "../../images/cogs101b.jpg"			
 		},
 		{
 			"id": "3",
 			"name": "CSE11",
-			"participants": "24"		
+			"participants": "24",
+			"image": "../../images/cse11.jpg"			
 		},
 		{
 			"id": "4",
 			"name": "CSE100",
-			"participants": "12"	
+			"participants": "12",
+			"image": "../../images/cse100.jpg"		
 		},
 		{
 			"id": "5",
 			"name": "COGS121",
-			"participants": "34"
+			"participants": "34",
+			"image": "../../images/cogs121.jpg"	
 		},
 		{
 			"id": "6",
 			"name": "COGS187A",
-			"participants": "10"
+			"participants": "10",
+			"image": "../../images/cogs187.jpg"	
+		},
+		{
+			"id": "7",
+			"name": "DSGN1",
+			"participants": "40",
+			"image": "../../images/dsgn1.jpg"	
 		}
 	]
 }
