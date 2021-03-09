@@ -282,11 +282,11 @@ ol.breaks {
   transform: rotate(90deg);
   transform-origin: center;
   transition: 1s linear all;
-  stroke: #add8e6;
+  stroke: #bbc8ba;
 }
 
 .remaining.blue {
-  color: #add8e6;
+  color: #bbc8ba;
 }
 
 /* ---------------------- STYLING FOR FRIENDS PAGE -------------------- */
