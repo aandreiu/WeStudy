@@ -8,45 +8,48 @@
     text-align: left;
     margin-left: 20px;
     margin-right: 20px;
+    font-family: 'Andika', sans-serif;
 }
 
 .head h2{
     position: relative;
     text-align: center;
-    background-color: whitesmoke;
+    background-color: #546747;
     border-radius: 50px;
     padding: 40px;
     font-variant: small-caps;
+    font-family: 'Andika', sans-serif;
 }
 
 .head h1{
     padding: 20px;
-    font-family: sans-serif;
+    font-family: 'Andika', sans-serif;
     text-align: left;
-    font-size: 30px;
-    background-color: lightgray;
+    font-size: 38px;
+    background-color: #546747;
+    color: white;
 }
 
 /* Styling for Home Button on all pages */ 
 .button{
     position: right;
     display: inline-block;
-    font-family: sans-serif;
+    font-family: 'Andika', sans-serif;
     text-align: right;
     font-size: 16px;
     padding-left: 110px;
     border: 15px;
-    background-color: lightgray;
+    background-color: #546747;
 }
 
 .progress{
     height: 20px;
     font-size: 15px;
     padding-left: 20px;
-    background-color: gray;
     text-align: center;
     line-height: 20px;
     float: center;
+    background-color: #546747;
 }
 
   /* Style the search field */
@@ -86,7 +89,7 @@
 
 #myProgress {
   width: 100%;
-  background-color: grey;
+  background-color: #546747;
 }
   
 #myBar {
@@ -97,12 +100,13 @@
 
  #friendsList {
    list-style-type:none;
+   background-color: #546747;
 }
 
 /* ---------------------- STYLING FOR NAV BAR ------------------------- */
 /* Bottom navigation bar styling*/
 .navbar {
-  background-color:lightgray;
+  background-color:#546747;
   overflow: hidden;
   position: fixed;
   bottom: 0;
@@ -123,13 +127,13 @@
 
 /* Change the color of links on hover */
 .navbar a:hover {
-  background-color: #ddd;
+  background-color: #2B331F;
   color: gray;
 }
 
 /* Add a color to the active page */
 .navbar a.active {
-  background-color: grey;
+  background-color: #2B331F;
   color: white;
 }
 
@@ -141,18 +145,20 @@
 /* ---------------------- STYLING FOR DROPDOWN ------------------------ */
 /* Dropdown Button */
 .dropbtn {
-  background-color: #add8e6;
-  color: white;
-  font-size: 16px;
+  background-color: #fab73d;
+  font-size: 20px;
   border: none;
   border-radius: 20px;
   margin: 20px 0 10px 0;
+  border-radius: 12px;
+  padding: 10px 10px;
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
+  font-family: 'Andika', sans-serif;
 }
 
 /* Dropdown Content */
@@ -163,6 +169,7 @@
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  font-size: 18px;
 }
   
 /* Links inside the dropdown */
@@ -201,11 +208,12 @@
 
 .overview h4 {
   padding: 12px;
-  font-family: sans-serif;
+  font-family: 'Andika', sans-serif;
   text-align: left;
-  background-color: lightgray;
+  background-color: #fab73d;
   border-radius: 24px;
   margin: 20px 0 10px 0;
+  font-size: 20px;
 }
 
 .overview-friends {
@@ -219,14 +227,14 @@
 .breaks {
   margin-left: 20px;
   margin-right: 20px;
+  font-family: 'Andika', sans-serif;
 }
 
 .breaks h4 {
   padding: 12px;
-  font-family: sans-serif;
+  font-family: 'Andika', sans-serif;
   text-align: left;
-  background-color: #add8e6;
-  color: white;
+  background-color: #fab73d;
   border-radius: 24px;
   margin: 20px 0 10px 0;
 }
@@ -236,12 +244,14 @@ ol.breaks {
   list-style-position: outside;
   padding: 0 0 0 10px;
   font-size: 16px;
+  font-family: 'Andika', sans-serif;
 }
 
 .timer {
   position: relative;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
+  font-family: 'Andika', sans-serif;
 }
 
 .circle {
@@ -256,13 +266,14 @@ ol.breaks {
 
 .timer-label {
   position: absolute;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   top: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 50px;
+  font-family: 'Andika', sans-serif;
 }
 
 .remaining {
@@ -271,7 +282,7 @@ ol.breaks {
   transform: rotate(90deg);
   transform-origin: center;
   transition: 1s linear all;
-  stroke: currentColor;
+  stroke: #add8e6;
 }
 
 .remaining.blue {
@@ -299,7 +310,7 @@ ol.breaks {
 .friends p{
   margin-top: 20px;
   text-align: center;
-  font-family: sans-serif;
+  font-family: cursive;
 }
 
 .friends a{
@@ -311,13 +322,21 @@ ol.breaks {
 .task-header {
   padding: 10px 30px;
   text-align: center;
-} 
+  font-family: 'Andika', sans-serif;
+}
+
+.task-header h2{
+  text-align: center;
+  font-family: 'Andika', sans-serif;
+  font-size: 30px;
+}  
 
 /* Clear floats */
 .task-header:after {
   content: "";
   display: table;
   clear: both;
+  font-family: 'Andika', sans-serif;
 } 
 
 /* Style input boxes */
@@ -332,8 +351,10 @@ ol.breaks {
   border-radius: 12px;
   padding: 10px 10px;
   width: 25%;
-  background: lightgray;
+  background: #bbc8ba;
   border: none;
+  font-size: 17px;
+  font-family: 'Andika', sans-serif;
 } 
 
 /* Style X button */
@@ -353,6 +374,8 @@ ol.breaks {
 ul {
   margin: 0;
   padding: 0;
+  font-family: 'Andika', sans-serif;
+  background-color: #546747;
 } 
 
 /* Style the list items */
@@ -360,7 +383,7 @@ ul li {
   cursor: pointer;
   position: relative;
   padding: 12px 8px 12px 40px;
-  background: #eee;
+  background: #fddca5;
   list-style: none;
 } 
 
@@ -380,7 +403,7 @@ ul li.check::before {
 
 /* Add background color and strike out text when clicked on */
 ul li.check {
-  background: #add8e6;
+  background: #fab73d;
   color: #fff;
   text-decoration: line-through;
 }
@@ -394,23 +417,33 @@ ul li.check {
   height: 70px;
   border-radius: 50%;
   float: left;
+  font-family: 'Andika', sans-serif;
 }
 
 .friend-awards,
 .group-awards,
 .indiv-awards {
   padding-left: 20px;
+  font-family: 'Andika', sans-serif;
+}
+
+.friend-awards,
+.group-awards,
+.indiv-awards h3{
+  padding-left: 20px;
+  font-family: 'Andika', sans-serif;
 }
 
 /* ---------------------- STYLING FOR SEARCH BAR --------------------- */ 
 #searchList{
     margin-left: 20px;
+    font-family: 'Andika', sans-serif;
 }
 
 /* ---------------------- STYLING FOR PROGRESS BAR ------------------- */ 
 .tasks{
-    color: grey;
     font-weight: 300;
+    font-family: 'Andika', sans-serif;
 }
 
 /* ---------------------- STYLING FOR CLOSE BUTTON PROFILE ------------------- */ 
@@ -421,7 +454,7 @@ ul li.check {
 
 /* ---------------------- STYLING FOR SETTINGS BUTTON ------------------- */ 
 #icon {
-  padding-left: 150px;
+  padding-left: 110px;
   color: darkgray;
 }
 
@@ -435,11 +468,25 @@ ul li.check {
   border: none;
   outline: none;
   transition: max-height 0.4s ease-out;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Andika', sans-serif;
 }
 
+.faq {
+  padding: 18px;
+  width: 100%;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: max-height 0.4s ease-out;
+  font-family: 'Andika', sans-serif;
+}
+
+
 .active, .faq:hover {
-  background-color: lightgray;
+  background-color: #fddca5;
+  font-family: 'Andika', sans-serif;
 }
 
 .project .details {
@@ -447,16 +494,22 @@ ul li.check {
   max-height: 0;
   display: none;
   overflow: hidden;
+  font-family: 'Andika', sans-serif;
 }
 
 .faq:after {
   content: '\02795';
-  font-size: 14px;
-  color: black;
+  font-size: 20px;
   float: right;
   margin-left: 5px
+  font-family: 'Andika', sans-serif;
 }
 
 .active2:after {
   content: '\2796';
+  font-family: 'Andika', sans-serif;
+}
+
+#question {
+  font-family: 'Andika', sans-serif;
 }
