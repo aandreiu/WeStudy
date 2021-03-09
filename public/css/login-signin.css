@@ -1,17 +1,17 @@
 h1, h2, p {
-	font-family: sans-serif;
+	font-family: 'Andika', sans-serif;
 }
 
 form {
-	font-family: sans-serif;
+	font-family: 'Andika', sans-serif;
 }
 
 button {
 	border-radius: 12px;
-	background-color: #add8e6;
+	background-color: #bbc8ba;
 	border: none;
 	padding: 10px 15px;
-	font-family: sans-serif;
+	font-family: 'Andika', sans-serif;
 	text-align: center;
 }
 
@@ -26,7 +26,8 @@ input {
 .curved-box {
 	padding-left: 100px;
 	border-radius: 20px;
-	border: 2px solid #add8e6;
+	border: 2px solid #2B331F;
+	background-color: #fab73d;
 	padding: 20px;
 	width: 300px;
 	height: 160px;
